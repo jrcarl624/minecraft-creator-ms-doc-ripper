@@ -1,0 +1,215 @@
+<h1 id="entity-documentation---is_skin_id">
+	Entity Documentation - is_skin_id
+</h1>
+
+<p>Returns true if the subject entity uses the skin id number provided.</p>
+
+<h2 id="parameters">Parameters</h2>
+
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+
+			<th>Default Value</th>
+
+			<th>Type</th>
+
+			<th>Description</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>value</td>
+
+			<td><em>not set</em></td>
+
+			<td>Integer</td>
+
+			<td>(Required) An integer value.</td>
+		</tr>
+	</tbody>
+</table>
+
+<blockquote>
+	<p>
+		[!Note]<code>is_skinF_id</code> can also use <code>subject</code> and
+		<a href="../Definitions/NestedTables/operator.md">operator</a>
+		parameters but they are optional.
+	</p>
+</blockquote>
+
+<h3 id="subject">subject</h3>
+
+<table>
+	<thead>
+		<tr>
+			<th align="left">Options</th>
+
+			<th align="left">Description</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td align="left">block</td>
+
+			<td align="left">The block involved with the interaction.</td>
+		</tr>
+
+		<tr>
+			<td align="left">damager</td>
+
+			<td align="left">
+				The damaging actor involved with the interaction.
+			</td>
+		</tr>
+
+		<tr>
+			<td align="left">other</td>
+
+			<td align="left">
+				The other member of an interaction, not the caller.
+			</td>
+		</tr>
+
+		<tr>
+			<td align="left">parent</td>
+
+			<td align="left">The caller&#39;s current parent.</td>
+		</tr>
+
+		<tr>
+			<td align="left">player</td>
+
+			<td align="left">The player involved with the interaction.</td>
+		</tr>
+
+		<tr>
+			<td align="left">self</td>
+
+			<td align="left">The entity or object calling the test</td>
+		</tr>
+
+		<tr>
+			<td align="left">target</td>
+
+			<td align="left">The caller&#39;s current target.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h3 id="operator">operator</h3>
+
+<table>
+	<thead>
+		<tr>
+			<th align="left">Options</th>
+
+			<th align="left">Description</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td align="left">!=</td>
+
+			<td align="left">Test for inequality.</td>
+		</tr>
+
+		<tr>
+			<td align="left">&lt;</td>
+
+			<td align="left">Test for less-than the value.</td>
+		</tr>
+
+		<tr>
+			<td align="left">&lt;=</td>
+
+			<td align="left">Test for less-than or equal to the value.</td>
+		</tr>
+
+		<tr>
+			<td align="left">&lt;&gt;</td>
+
+			<td align="left">Test for inequality.</td>
+		</tr>
+
+		<tr>
+			<td align="left">=</td>
+
+			<td align="left">Test for equality.</td>
+		</tr>
+
+		<tr>
+			<td align="left">==</td>
+
+			<td align="left">Test for equality.</td>
+		</tr>
+
+		<tr>
+			<td align="left">&gt;</td>
+
+			<td align="left">Test for greater-than the value.</td>
+		</tr>
+
+		<tr>
+			<td align="left">&gt;=</td>
+
+			<td align="left">Test for greater-than or equal to the value.</td>
+		</tr>
+
+		<tr>
+			<td align="left">equals</td>
+
+			<td align="left">Test for equality.</td>
+		</tr>
+
+		<tr>
+			<td align="left">not</td>
+
+			<td align="left">Test for inequality.</td>
+		</tr>
+	</tbody>
+</table>
+
+<h2 id="example">Example</h2>
+
+<h3 id="full">Full</h3>
+
+<pre><code class="language-json">{ &quot;test&quot;: &quot;is_skin_id&quot;, &quot;subject&quot;: &quot;self&quot;, &quot;operator&quot;: &quot;equals&quot;, &quot;value&quot;: true}</code></pre>
+
+<h3 id="short-using-defaults">Short (using Defaults)</h3>
+
+<pre><code class="language-json">{ &quot;test&quot;: &quot;is_skin_id&quot; }</code></pre>
+
+<h2 id="vanilla-entities-examples">Vanilla entities examples</h2>
+
+<h3 id="villager_v2">villager_v2</h3>
+
+<p>
+	:::code language=&quot;json&quot;
+	source=&quot;../../../../Source/VanillaBehaviorPack/entities/villager_v2.json&quot;
+	range=&quot;2013-2066&quot;:::
+</p>
+
+<h2 id="vanilla-entities-using-is_skin_id">
+	Vanilla entities using <code>is_skin_id</code>
+</h2>
+
+<ul>
+	<li>
+		<a
+			href="../../../../Source/VanillaBehaviorPack_Snippets/entities/villager_v2.md"
+			>villager_v2</a
+		>
+	</li>
+
+	<li>
+		<a
+			href="../../../../Source/VanillaBehaviorPack_Snippets/entities/zombie_villager_v2.md"
+			>zombie_villager_v2</a
+		>
+	</li>
+</ul>

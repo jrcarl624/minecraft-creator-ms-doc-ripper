@@ -1,0 +1,90 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Recipe Documentation -Shaped Recipe",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Recipe Documentation - Shaped Recipe" },
+	{
+		"type": "other",
+		"data": "Represents a crafting recipe that is to be used with a crafting table."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "key",
+				"Type": "array of key and item pairs",
+				"Description": "Patten key character mapped to item names."
+			},
+			{
+				"Name": "pattern",
+				"Type": "String array",
+				"Description": "Characters that represent a pattern to be defined by keys."
+			},
+			{
+				"Name": "priority",
+				"Type": "Integer",
+				"Description": "Sets the priority order of the recipe. Lower numbers represent a higher priority."
+			},
+			{
+				"Name": "result",
+				"Type": "array of item names",
+				"Description": "When input items match the pattern then these items are the result."
+			},
+			{
+				"Name": "tags",
+				"Type": "String array",
+				"Description": "Item that can create the shaped recipe, such as \"crafting_table\"."
+			}
+		]
+	},
+	{ "type": "heading", "data": "key and pattern" },
+	{
+		"type": "other",
+		"data": "The `key` used in the pattern may be any single character except the 'space' character, which is reserved for empty slots in a recipe."
+	},
+	{ "type": "heading", "data": "Shaped Recipe Example" },
+	{
+		"type": "code",
+		"data": {
+			"format_version": "1.17",
+			"minecraft:recipe_shaped": {
+				"description": { "identifier": "minecraft:acacia_boat" },
+				"tags": ["crafting_table"],
+				"pattern": ["#P#", "###"],
+				"key": {
+					"P": { "item": "minecraft:wooden_shovel" },
+					"#": { "item": "minecraft:planks", "data": 4 }
+				},
+				"result": { "item": "minecraft:boat", "data": 4 }
+			}
+		},
+		"language": "JSON"
+	},
+	{ "type": "heading", "data": "Vanilla Example" },
+	{ "type": "heading", "data": "Iron Pickaxe" },
+	{
+		"type": "code",
+		"data": {
+			"format_version": "1.12",
+			"minecraft:recipe_shaped": {
+				"description": { "identifier": "minecraft:iron_pickaxe" },
+				"tags": ["crafting_table"],
+				"pattern": ["XXX", " # ", " # "],
+				"key": {
+					"#": { "item": "minecraft:stick" },
+					"X": { "item": "minecraft:iron_ingot" }
+				},
+				"result": { "item": "minecraft:iron_pickaxe" }
+			}
+		},
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/recipes/iron_pickaxe.json"
+	}
+]

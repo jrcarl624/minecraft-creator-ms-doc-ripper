@@ -1,0 +1,37 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Block Documentation - die",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Block Documentation - die" },
+	{
+		"type": "other",
+		"data": "`die` is an Event Response that will kill a target."
+	},
+	{ "type": "heading", "data": "Extra Parameters" },
+	{ "type": "other", "data": "`die` can use the following parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "[target](../../../EntityReference/Examples/FilterList.md)",
+				"Default Value": "self",
+				"Type": "Minecraft Filter",
+				"Description": "The target context to execute against."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"die": { "target": { "test": "random_chance", "value": "1" } }
+		},
+		"language": "json"
+	}
+]

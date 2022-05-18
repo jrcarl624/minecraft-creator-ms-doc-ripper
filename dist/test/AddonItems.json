@@ -1,0 +1,5174 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Addons Documentation - Items",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Addons Documentation - Items" },
+	{
+		"type": "other",
+		"data": "Listed below are the available Items for use in Minecraft: Bedrock Edition."
+	},
+	{ "type": "alert", "data": "NOTE" },
+	{
+		"type": "quote",
+		"data": "To learn more about how Items function in Minecraft: Bedrock Edition, please take a look at the [Item JSON Documentation](../../ItemReference/index.yml)"
+	},
+	{ "type": "heading", "data": "List of Items" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"ID": "379",
+				"Name": "acacia_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-140",
+				"Name": "acacia_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "638",
+				"Name": "acacia_chest_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "556",
+				"Name": "acacia_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "187",
+				"Name": "acacia_fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-150",
+				"Name": "acacia_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "579",
+				"Name": "acacia_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "163",
+				"Name": "acacia_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-190",
+				"Name": "acacia_standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-145",
+				"Name": "acacia_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-191",
+				"Name": "acacia_wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "126",
+				"Name": "activator_rail",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "487",
+				"Name": "agent_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "-158", "Name": "air", "Aux Values (if applicable)": "" },
+			{
+				"ID": "631",
+				"Name": "allay_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "210", "Name": "allow", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-327",
+				"Name": "amethyst_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-329",
+				"Name": "amethyst_cluster",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "625",
+				"Name": "amethyst_shard",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-271",
+				"Name": "ancient_debris",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-171",
+				"Name": "andesite_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "145", "Name": "anvil", "Aux Values (if applicable)": "" },
+			{ "ID": "257", "Name": "apple", "Aux Values (if applicable)": "" },
+			{
+				"ID": "552",
+				"Name": "armor_stand",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "301", "Name": "arrow", "Aux Values (if applicable)": "" },
+			{
+				"ID": "369",
+				"Name": "axolotl_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "500",
+				"Name": "axolotl_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-337",
+				"Name": "azalea",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-324",
+				"Name": "azalea_leaves",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-325",
+				"Name": "azalea_leaves_flowered",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "281",
+				"Name": "baked_potato",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "599",
+				"Name": "balloon",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-163",
+				"Name": "bamboo",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-164",
+				"Name": "bamboo_sapling",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "567", "Name": "banner", "Aux Values (if applicable)": "" },
+			{
+				"ID": "643",
+				"Name": "banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-203",
+				"Name": "barrel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-161",
+				"Name": "barrier",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-234",
+				"Name": "basalt",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "453",
+				"Name": "bat_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "138", "Name": "beacon", "Aux Values (if applicable)": "" },
+			{ "ID": "418", "Name": "bed", "Aux Values (if applicable)": "" },
+			{ "ID": "7", "Name": "bedrock", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-218",
+				"Name": "bee_nest",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "494",
+				"Name": "bee_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "273", "Name": "beef", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-219",
+				"Name": "beehive",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "285",
+				"Name": "beetroot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "295",
+				"Name": "beetroot_seeds",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "286",
+				"Name": "beetroot_soup",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "-206", "Name": "bell", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-323",
+				"Name": "big_dripleaf",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "376",
+				"Name": "birch_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-141",
+				"Name": "birch_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "635",
+				"Name": "birch_chest_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "554",
+				"Name": "birch_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "184",
+				"Name": "birch_fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-151",
+				"Name": "birch_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "577",
+				"Name": "birch_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "135",
+				"Name": "birch_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-186",
+				"Name": "birch_standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-146",
+				"Name": "birch_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-187",
+				"Name": "birch_wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-428",
+				"Name": "black_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-445",
+				"Name": "black_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "395",
+				"Name": "black_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "235",
+				"Name": "black_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-273",
+				"Name": "blackstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-283",
+				"Name": "blackstone_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-282",
+				"Name": "blackstone_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-276",
+				"Name": "blackstone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-277",
+				"Name": "blackstone_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-196",
+				"Name": "blast_furnace",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "429",
+				"Name": "blaze_powder",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "423",
+				"Name": "blaze_rod",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "456",
+				"Name": "blaze_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "597", "Name": "bleach", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-424",
+				"Name": "blue_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-441",
+				"Name": "blue_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "399",
+				"Name": "blue_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "231",
+				"Name": "blue_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-11",
+				"Name": "blue_ice",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "641", "Name": "boat", "Aux Values (if applicable)": "" },
+			{ "ID": "415", "Name": "bone", "Aux Values (if applicable)": "" },
+			{
+				"ID": "216",
+				"Name": "bone_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "411",
+				"Name": "bone_meal",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "387", "Name": "book", "Aux Values (if applicable)": "" },
+			{
+				"ID": "47",
+				"Name": "bookshelf",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "212",
+				"Name": "border_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "586",
+				"Name": "bordure_indented_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "300", "Name": "bow", "Aux Values (if applicable)": "" },
+			{ "ID": "321", "Name": "bowl", "Aux Values (if applicable)": "" },
+			{ "ID": "261", "Name": "bread", "Aux Values (if applicable)": "" },
+			{
+				"ID": "431",
+				"Name": "brewing_stand",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "383", "Name": "brick", "Aux Values (if applicable)": "" },
+			{
+				"ID": "45",
+				"Name": "brick_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "108",
+				"Name": "brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-425",
+				"Name": "brown_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-442",
+				"Name": "brown_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "398",
+				"Name": "brown_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "232",
+				"Name": "brown_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "39",
+				"Name": "brown_mushroom",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "99",
+				"Name": "brown_mushroom_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-160",
+				"Name": "bubble_column",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "360", "Name": "bucket", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-328",
+				"Name": "budding_amethyst",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "81", "Name": "cactus", "Aux Values (if applicable)": "" },
+			{ "ID": "417", "Name": "cake", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-326",
+				"Name": "calcite",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "594", "Name": "camera", "Aux Values (if applicable)": "" },
+			{
+				"ID": "589",
+				"Name": "campfire",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-412",
+				"Name": "candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-429",
+				"Name": "candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "171", "Name": "carpet", "Aux Values (if applicable)": "" },
+			{ "ID": "279", "Name": "carrot", "Aux Values (if applicable)": "" },
+			{
+				"ID": "517",
+				"Name": "carrot_on_a_stick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "141",
+				"Name": "carrots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-200",
+				"Name": "cartography_table",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-155",
+				"Name": "carved_pumpkin",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "488",
+				"Name": "cat_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "432",
+				"Name": "cauldron",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "457",
+				"Name": "cave_spider_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-322",
+				"Name": "cave_vines",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-375",
+				"Name": "cave_vines_body_with_berries",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-376",
+				"Name": "cave_vines_head_with_berries",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "620", "Name": "chain", "Aux Values (if applicable)": "" },
+			{
+				"ID": "189",
+				"Name": "chain_command_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "342",
+				"Name": "chainmail_boots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "340",
+				"Name": "chainmail_chestplate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "339",
+				"Name": "chainmail_helmet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "341",
+				"Name": "chainmail_leggings",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "303",
+				"Name": "charcoal",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "192",
+				"Name": "chemical_heat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "238",
+				"Name": "chemistry_table",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "54", "Name": "chest", "Aux Values (if applicable)": "" },
+			{
+				"ID": "640",
+				"Name": "chest_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "389",
+				"Name": "chest_minecart",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "275",
+				"Name": "chicken",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "435",
+				"Name": "chicken_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-395",
+				"Name": "chiseled_deepslate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-302",
+				"Name": "chiseled_nether_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-279",
+				"Name": "chiseled_polished_blackstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "200",
+				"Name": "chorus_flower",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "558",
+				"Name": "chorus_fruit",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "240",
+				"Name": "chorus_plant",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "82", "Name": "clay", "Aux Values (if applicable)": "" },
+			{
+				"ID": "384",
+				"Name": "clay_ball",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-465",
+				"Name": "client_request_placeholder_block",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "393", "Name": "clock", "Aux Values (if applicable)": "" },
+			{ "ID": "302", "Name": "coal", "Aux Values (if applicable)": "" },
+			{
+				"ID": "173",
+				"Name": "coal_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "16",
+				"Name": "coal_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-379",
+				"Name": "cobbled_deepslate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-396",
+				"Name": "cobbled_deepslate_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-380",
+				"Name": "cobbled_deepslate_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-381",
+				"Name": "cobbled_deepslate_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-382",
+				"Name": "cobbled_deepslate_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "4",
+				"Name": "cobblestone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "139",
+				"Name": "cobblestone_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "127", "Name": "cocoa", "Aux Values (if applicable)": "" },
+			{
+				"ID": "412",
+				"Name": "cocoa_beans",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "264", "Name": "cod", "Aux Values (if applicable)": "" },
+			{
+				"ID": "364",
+				"Name": "cod_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "480",
+				"Name": "cod_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "204",
+				"Name": "colored_torch_bp",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "202",
+				"Name": "colored_torch_rg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "137",
+				"Name": "command_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "563",
+				"Name": "command_block_minecart",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "522",
+				"Name": "comparator",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "391",
+				"Name": "compass",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-213",
+				"Name": "composter",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "595",
+				"Name": "compound",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "236",
+				"Name": "concrete",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "237",
+				"Name": "concrete_powder",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-157",
+				"Name": "conduit",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "274",
+				"Name": "cooked_beef",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "276",
+				"Name": "cooked_chicken",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "268",
+				"Name": "cooked_cod",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "551",
+				"Name": "cooked_mutton",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "263",
+				"Name": "cooked_porkchop",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "289",
+				"Name": "cooked_rabbit",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "269",
+				"Name": "cooked_salmon",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "271", "Name": "cookie", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-340",
+				"Name": "copper_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "504",
+				"Name": "copper_ingot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-311",
+				"Name": "copper_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "-131", "Name": "coral", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-132",
+				"Name": "coral_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-133",
+				"Name": "coral_fan",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-134",
+				"Name": "coral_fan_dead",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-135",
+				"Name": "coral_fan_hang",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-136",
+				"Name": "coral_fan_hang2",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-137",
+				"Name": "coral_fan_hang3",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "436",
+				"Name": "cow_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-410",
+				"Name": "cracked_deepslate_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-409",
+				"Name": "cracked_deepslate_tiles",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-303",
+				"Name": "cracked_nether_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-280",
+				"Name": "cracked_polished_blackstone_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "58",
+				"Name": "crafting_table",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "582",
+				"Name": "creeper_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "441",
+				"Name": "creeper_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-260",
+				"Name": "crimson_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "617",
+				"Name": "crimson_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-266",
+				"Name": "crimson_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-256",
+				"Name": "crimson_fence",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-258",
+				"Name": "crimson_fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-228",
+				"Name": "crimson_fungus",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-299",
+				"Name": "crimson_hyphae",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-232",
+				"Name": "crimson_nylium",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-242",
+				"Name": "crimson_planks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-262",
+				"Name": "crimson_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-223",
+				"Name": "crimson_roots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "615",
+				"Name": "crimson_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-264",
+				"Name": "crimson_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-254",
+				"Name": "crimson_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-250",
+				"Name": "crimson_standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-225",
+				"Name": "crimson_stem",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-246",
+				"Name": "crimson_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-252",
+				"Name": "crimson_wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "575",
+				"Name": "crossbow",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-289",
+				"Name": "crying_obsidian",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-347",
+				"Name": "cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-361",
+				"Name": "cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-354",
+				"Name": "cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-422",
+				"Name": "cyan_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-439",
+				"Name": "cyan_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "401",
+				"Name": "cyan_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "229",
+				"Name": "cyan_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "380",
+				"Name": "dark_oak_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-142",
+				"Name": "dark_oak_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "639",
+				"Name": "dark_oak_chest_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "557",
+				"Name": "dark_oak_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "186",
+				"Name": "dark_oak_fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-152",
+				"Name": "dark_oak_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "580",
+				"Name": "dark_oak_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "164",
+				"Name": "dark_oak_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-147",
+				"Name": "dark_oak_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-3",
+				"Name": "dark_prismarine_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-192",
+				"Name": "darkoak_standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-193",
+				"Name": "darkoak_wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "151",
+				"Name": "daylight_detector",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "178",
+				"Name": "daylight_detector_inverted",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "32",
+				"Name": "deadbush",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "591",
+				"Name": "debug_stick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-378",
+				"Name": "deepslate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-399",
+				"Name": "deepslate_brick_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-392",
+				"Name": "deepslate_brick_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-393",
+				"Name": "deepslate_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-394",
+				"Name": "deepslate_brick_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-391",
+				"Name": "deepslate_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-406",
+				"Name": "deepslate_coal_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-408",
+				"Name": "deepslate_copper_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-405",
+				"Name": "deepslate_diamond_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-407",
+				"Name": "deepslate_emerald_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-402",
+				"Name": "deepslate_gold_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-401",
+				"Name": "deepslate_iron_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-400",
+				"Name": "deepslate_lapis_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-403",
+				"Name": "deepslate_redstone_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-398",
+				"Name": "deepslate_tile_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-388",
+				"Name": "deepslate_tile_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-389",
+				"Name": "deepslate_tile_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-390",
+				"Name": "deepslate_tile_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-387",
+				"Name": "deepslate_tiles",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "211", "Name": "deny", "Aux Values (if applicable)": "" },
+			{
+				"ID": "28",
+				"Name": "detector_rail",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "304",
+				"Name": "diamond",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "319",
+				"Name": "diamond_axe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "57",
+				"Name": "diamond_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "350",
+				"Name": "diamond_boots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "348",
+				"Name": "diamond_chestplate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "347",
+				"Name": "diamond_helmet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "332",
+				"Name": "diamond_hoe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "533",
+				"Name": "diamond_horse_armor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "349",
+				"Name": "diamond_leggings",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "56",
+				"Name": "diamond_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "318",
+				"Name": "diamond_pickaxe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "317",
+				"Name": "diamond_shovel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "316",
+				"Name": "diamond_sword",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-170",
+				"Name": "diorite_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "3", "Name": "dirt", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-318",
+				"Name": "dirt_with_roots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "23",
+				"Name": "dispenser",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "484",
+				"Name": "dolphin_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "465",
+				"Name": "donkey_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-368",
+				"Name": "double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "175",
+				"Name": "double_plant",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "44",
+				"Name": "double_stone_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "182",
+				"Name": "double_stone_slab2",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-162",
+				"Name": "double_stone_slab3",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-166",
+				"Name": "double_stone_slab4",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "157",
+				"Name": "double_wooden_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "560",
+				"Name": "dragon_breath",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "122",
+				"Name": "dragon_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "270",
+				"Name": "dried_kelp",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-139",
+				"Name": "dried_kelp_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-317",
+				"Name": "dripstone_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "125",
+				"Name": "dropper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "483",
+				"Name": "drowned_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "642", "Name": "dye", "Aux Values (if applicable)": "" },
+			{ "ID": "390", "Name": "egg", "Aux Values (if applicable)": "" },
+			{
+				"ID": "471",
+				"Name": "elder_guardian_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "36",
+				"Name": "element_0",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-12",
+				"Name": "element_1",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-21",
+				"Name": "element_10",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-111",
+				"Name": "element_100",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-112",
+				"Name": "element_101",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-113",
+				"Name": "element_102",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-114",
+				"Name": "element_103",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-115",
+				"Name": "element_104",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-116",
+				"Name": "element_105",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-117",
+				"Name": "element_106",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-118",
+				"Name": "element_107",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-119",
+				"Name": "element_108",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-120",
+				"Name": "element_109",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-22",
+				"Name": "element_11",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-121",
+				"Name": "element_110",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-122",
+				"Name": "element_111",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-123",
+				"Name": "element_112",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-124",
+				"Name": "element_113",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-125",
+				"Name": "element_114",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-126",
+				"Name": "element_115",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-127",
+				"Name": "element_116",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-128",
+				"Name": "element_117",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-129",
+				"Name": "element_118",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-23",
+				"Name": "element_12",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-24",
+				"Name": "element_13",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-25",
+				"Name": "element_14",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-26",
+				"Name": "element_15",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-27",
+				"Name": "element_16",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-28",
+				"Name": "element_17",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-29",
+				"Name": "element_18",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-30",
+				"Name": "element_19",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-13",
+				"Name": "element_2",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-31",
+				"Name": "element_20",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-32",
+				"Name": "element_21",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-33",
+				"Name": "element_22",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-34",
+				"Name": "element_23",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-35",
+				"Name": "element_24",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-36",
+				"Name": "element_25",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-37",
+				"Name": "element_26",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-38",
+				"Name": "element_27",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-39",
+				"Name": "element_28",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-40",
+				"Name": "element_29",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-14",
+				"Name": "element_3",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-41",
+				"Name": "element_30",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-42",
+				"Name": "element_31",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-43",
+				"Name": "element_32",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-44",
+				"Name": "element_33",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-45",
+				"Name": "element_34",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-46",
+				"Name": "element_35",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-47",
+				"Name": "element_36",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-48",
+				"Name": "element_37",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-49",
+				"Name": "element_38",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-50",
+				"Name": "element_39",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-15",
+				"Name": "element_4",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-51",
+				"Name": "element_40",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-52",
+				"Name": "element_41",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-53",
+				"Name": "element_42",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-54",
+				"Name": "element_43",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-55",
+				"Name": "element_44",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-56",
+				"Name": "element_45",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-57",
+				"Name": "element_46",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-58",
+				"Name": "element_47",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-59",
+				"Name": "element_48",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-60",
+				"Name": "element_49",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-16",
+				"Name": "element_5",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-61",
+				"Name": "element_50",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-62",
+				"Name": "element_51",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-63",
+				"Name": "element_52",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-64",
+				"Name": "element_53",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-65",
+				"Name": "element_54",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-66",
+				"Name": "element_55",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-67",
+				"Name": "element_56",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-68",
+				"Name": "element_57",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-69",
+				"Name": "element_58",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-70",
+				"Name": "element_59",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-17",
+				"Name": "element_6",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-71",
+				"Name": "element_60",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-72",
+				"Name": "element_61",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-73",
+				"Name": "element_62",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-74",
+				"Name": "element_63",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-75",
+				"Name": "element_64",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-76",
+				"Name": "element_65",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-77",
+				"Name": "element_66",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-78",
+				"Name": "element_67",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-79",
+				"Name": "element_68",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-80",
+				"Name": "element_69",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-18",
+				"Name": "element_7",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-81",
+				"Name": "element_70",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-82",
+				"Name": "element_71",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-83",
+				"Name": "element_72",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-84",
+				"Name": "element_73",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-85",
+				"Name": "element_74",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-86",
+				"Name": "element_75",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-87",
+				"Name": "element_76",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-88",
+				"Name": "element_77",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-89",
+				"Name": "element_78",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-90",
+				"Name": "element_79",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-19",
+				"Name": "element_8",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-91",
+				"Name": "element_80",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-92",
+				"Name": "element_81",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-93",
+				"Name": "element_82",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-94",
+				"Name": "element_83",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-95",
+				"Name": "element_84",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-96",
+				"Name": "element_85",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-97",
+				"Name": "element_86",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-98",
+				"Name": "element_87",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-99",
+				"Name": "element_88",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-100",
+				"Name": "element_89",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-20",
+				"Name": "element_9",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-101",
+				"Name": "element_90",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-102",
+				"Name": "element_91",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-103",
+				"Name": "element_92",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-104",
+				"Name": "element_93",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-105",
+				"Name": "element_94",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-106",
+				"Name": "element_95",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-107",
+				"Name": "element_96",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-108",
+				"Name": "element_97",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-109",
+				"Name": "element_98",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-110",
+				"Name": "element_99",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "564", "Name": "elytra", "Aux Values (if applicable)": "" },
+			{
+				"ID": "512",
+				"Name": "emerald",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "133",
+				"Name": "emerald_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "129",
+				"Name": "emerald_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "515",
+				"Name": "empty_map",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "521",
+				"Name": "enchanted_book",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "259",
+				"Name": "enchanted_golden_apple",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "116",
+				"Name": "enchanting_table",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-178",
+				"Name": "end_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "206",
+				"Name": "end_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "638",
+				"Name": "end_crystal",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "209",
+				"Name": "end_gateway",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "119",
+				"Name": "end_portal",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "120",
+				"Name": "end_portal_frame",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "208",
+				"Name": "end_rod",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "121",
+				"Name": "end_stone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "130",
+				"Name": "ender_chest",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "433",
+				"Name": "ender_eye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "422",
+				"Name": "ender_pearl",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "442",
+				"Name": "enderman_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "460",
+				"Name": "endermite_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "475",
+				"Name": "evoker_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "508",
+				"Name": "experience_bottle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-341",
+				"Name": "exposed_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-348",
+				"Name": "exposed_cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-362",
+				"Name": "exposed_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-355",
+				"Name": "exposed_cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-369",
+				"Name": "exposed_double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "60",
+				"Name": "farmland",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "327",
+				"Name": "feather",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "85", "Name": "fence", "Aux Values (if applicable)": "" },
+			{
+				"ID": "107",
+				"Name": "fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "428",
+				"Name": "fermented_spider_eye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "585",
+				"Name": "field_masoned_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "420",
+				"Name": "filled_map",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "51", "Name": "fire", "Aux Values (if applicable)": "" },
+			{
+				"ID": "509",
+				"Name": "fire_charge",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "633",
+				"Name": "firefly_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "519",
+				"Name": "firework_rocket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "520",
+				"Name": "firework_star",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "392",
+				"Name": "fishing_rod",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-201",
+				"Name": "fletching_table",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "356", "Name": "flint", "Aux Values (if applicable)": "" },
+			{
+				"ID": "299",
+				"Name": "flint_and_steel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "581",
+				"Name": "flower_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "514",
+				"Name": "flower_pot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-338",
+				"Name": "flowering_azalea",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "10",
+				"Name": "flowing_lava",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "8",
+				"Name": "flowing_water",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "490",
+				"Name": "fox_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "513", "Name": "frame", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-468",
+				"Name": "frog_spawn",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "628",
+				"Name": "frog_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "207",
+				"Name": "frosted_ice",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "61", "Name": "furnace", "Aux Values (if applicable)": "" },
+			{
+				"ID": "454",
+				"Name": "ghast_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "424",
+				"Name": "ghast_tear",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-281",
+				"Name": "gilded_blackstone",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "20", "Name": "glass", "Aux Values (if applicable)": "" },
+			{
+				"ID": "427",
+				"Name": "glass_bottle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "102",
+				"Name": "glass_pane",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "434",
+				"Name": "glistering_melon_slice",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "588",
+				"Name": "globe_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "624",
+				"Name": "glow_frame",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "503",
+				"Name": "glow_ink_sac",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-411",
+				"Name": "glow_lichen",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "502",
+				"Name": "glow_squid_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "602",
+				"Name": "glow_stick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "246",
+				"Name": "glowingobsidian",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "89",
+				"Name": "glowstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "394",
+				"Name": "glowstone_dust",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "501",
+				"Name": "goat_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "41",
+				"Name": "gold_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "306",
+				"Name": "gold_ingot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "425",
+				"Name": "gold_nugget",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "14",
+				"Name": "gold_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "258",
+				"Name": "golden_apple",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "325",
+				"Name": "golden_axe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "354",
+				"Name": "golden_boots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "283",
+				"Name": "golden_carrot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "352",
+				"Name": "golden_chestplate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "351",
+				"Name": "golden_helmet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "333",
+				"Name": "golden_hoe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "532",
+				"Name": "golden_horse_armor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "353",
+				"Name": "golden_leggings",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "324",
+				"Name": "golden_pickaxe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "27",
+				"Name": "golden_rail",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "323",
+				"Name": "golden_shovel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "322",
+				"Name": "golden_sword",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-169",
+				"Name": "granite_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "2", "Name": "grass", "Aux Values (if applicable)": "" },
+			{
+				"ID": "198",
+				"Name": "grass_path",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "13", "Name": "gravel", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-420",
+				"Name": "gray_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-437",
+				"Name": "gray_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "403",
+				"Name": "gray_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "227",
+				"Name": "gray_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-426",
+				"Name": "green_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-443",
+				"Name": "green_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "397",
+				"Name": "green_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "233",
+				"Name": "green_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-195",
+				"Name": "grindstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "461",
+				"Name": "guardian_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "328",
+				"Name": "gunpowder",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-319",
+				"Name": "hanging_roots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "253",
+				"Name": "hard_glass",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "190",
+				"Name": "hard_glass_pane",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "254",
+				"Name": "hard_stained_glass",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "191",
+				"Name": "hard_stained_glass_pane",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "172",
+				"Name": "hardened_clay",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "170",
+				"Name": "hay_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "571",
+				"Name": "heart_of_the_sea",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "148",
+				"Name": "heavy_weighted_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "496",
+				"Name": "hoglin_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-220",
+				"Name": "honey_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "593",
+				"Name": "honey_bottle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "592",
+				"Name": "honeycomb",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-221",
+				"Name": "honeycomb_block",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "527", "Name": "hopper", "Aux Values (if applicable)": "" },
+			{
+				"ID": "526",
+				"Name": "hopper_minecart",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "458",
+				"Name": "horse_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "463",
+				"Name": "husk_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "79", "Name": "ice", "Aux Values (if applicable)": "" },
+			{
+				"ID": "596",
+				"Name": "ice_bomb",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-454",
+				"Name": "infested_deepslate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "248",
+				"Name": "info_update",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "249",
+				"Name": "info_update2",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "413",
+				"Name": "ink_sac",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "95",
+				"Name": "invisible_bedrock",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "298",
+				"Name": "iron_axe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "101",
+				"Name": "iron_bars",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "42",
+				"Name": "iron_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "346",
+				"Name": "iron_boots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "344",
+				"Name": "iron_chestplate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "372",
+				"Name": "iron_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "343",
+				"Name": "iron_helmet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "331",
+				"Name": "iron_hoe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "531",
+				"Name": "iron_horse_armor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "305",
+				"Name": "iron_ingot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "345",
+				"Name": "iron_leggings",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "569",
+				"Name": "iron_nugget",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "15",
+				"Name": "iron_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "297",
+				"Name": "iron_pickaxe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "296",
+				"Name": "iron_shovel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "307",
+				"Name": "iron_sword",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "167",
+				"Name": "iron_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "196",
+				"Name": "item.acacia_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "26",
+				"Name": "item.bed",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "244",
+				"Name": "item.beetroot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "194",
+				"Name": "item.birch_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "117",
+				"Name": "item.brewing_stand",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "92",
+				"Name": "item.cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "242",
+				"Name": "item.camera",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-209",
+				"Name": "item.campfire",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "118",
+				"Name": "item.cauldron",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-286",
+				"Name": "item.chain",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-244",
+				"Name": "item.crimson_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "197",
+				"Name": "item.dark_oak_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "140",
+				"Name": "item.flower_pot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "199",
+				"Name": "item.frame",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-339",
+				"Name": "item.glow_frame",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "154",
+				"Name": "item.hopper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "71",
+				"Name": "item.iron_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "195",
+				"Name": "item.jungle_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-138",
+				"Name": "item.kelp",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-238",
+				"Name": "item.nether_sprouts",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "115",
+				"Name": "item.nether_wart",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "83",
+				"Name": "item.reeds",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "144",
+				"Name": "item.skull",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-290",
+				"Name": "item.soul_campfire",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "193",
+				"Name": "item.spruce_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-245",
+				"Name": "item.warped_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "59",
+				"Name": "item.wheat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "64",
+				"Name": "item.wooden_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-211",
+				"Name": "jigsaw",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "84", "Name": "jukebox", "Aux Values (if applicable)": "" },
+			{
+				"ID": "377",
+				"Name": "jungle_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-143",
+				"Name": "jungle_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "636",
+				"Name": "jungle_chest_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "555",
+				"Name": "jungle_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "185",
+				"Name": "jungle_fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-153",
+				"Name": "jungle_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "578",
+				"Name": "jungle_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "136",
+				"Name": "jungle_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-188",
+				"Name": "jungle_standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-148",
+				"Name": "jungle_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-189",
+				"Name": "jungle_wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "382", "Name": "kelp", "Aux Values (if applicable)": "" },
+			{ "ID": "65", "Name": "ladder", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-208",
+				"Name": "lantern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "22",
+				"Name": "lapis_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "414",
+				"Name": "lapis_lazuli",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "21",
+				"Name": "lapis_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-330",
+				"Name": "large_amethyst_bud",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "11", "Name": "lava", "Aux Values (if applicable)": "" },
+			{
+				"ID": "363",
+				"Name": "lava_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-210",
+				"Name": "lava_cauldron",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "547", "Name": "lead", "Aux Values (if applicable)": "" },
+			{
+				"ID": "381",
+				"Name": "leather",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "338",
+				"Name": "leather_boots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "336",
+				"Name": "leather_chestplate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "335",
+				"Name": "leather_helmet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "530",
+				"Name": "leather_horse_armor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "337",
+				"Name": "leather_leggings",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "18", "Name": "leaves", "Aux Values (if applicable)": "" },
+			{
+				"ID": "161",
+				"Name": "leaves2",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-194",
+				"Name": "lectern",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "69", "Name": "lever", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-215",
+				"Name": "light_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-416",
+				"Name": "light_blue_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-433",
+				"Name": "light_blue_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "407",
+				"Name": "light_blue_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "223",
+				"Name": "light_blue_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-421",
+				"Name": "light_gray_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-438",
+				"Name": "light_gray_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "402",
+				"Name": "light_gray_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "147",
+				"Name": "light_weighted_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-312",
+				"Name": "lightning_rod",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-418",
+				"Name": "lime_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-435",
+				"Name": "lime_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "405",
+				"Name": "lime_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "225",
+				"Name": "lime_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "562",
+				"Name": "lingering_potion",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-214",
+				"Name": "lit_blast_furnace",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-404",
+				"Name": "lit_deepslate_redstone_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "62",
+				"Name": "lit_furnace",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "91",
+				"Name": "lit_pumpkin",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "124",
+				"Name": "lit_redstone_lamp",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "74",
+				"Name": "lit_redstone_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-199",
+				"Name": "lit_smoker",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "473",
+				"Name": "llama_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-222",
+				"Name": "lodestone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "603",
+				"Name": "lodestone_compass",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "17", "Name": "log", "Aux Values (if applicable)": "" },
+			{ "ID": "162", "Name": "log2", "Aux Values (if applicable)": "" },
+			{ "ID": "-204", "Name": "loom", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-415",
+				"Name": "magenta_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-432",
+				"Name": "magenta_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "408",
+				"Name": "magenta_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "222",
+				"Name": "magenta_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "213", "Name": "magma", "Aux Values (if applicable)": "" },
+			{
+				"ID": "430",
+				"Name": "magma_cream",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "455",
+				"Name": "magma_cube_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-472",
+				"Name": "mangrove_leaves",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-474",
+				"Name": "mangrove_propagule",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-476",
+				"Name": "mangrove_propagule_hanging",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "600",
+				"Name": "medicine",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-331",
+				"Name": "medium_amethyst_bud",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "103",
+				"Name": "melon_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "293",
+				"Name": "melon_seeds",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "272",
+				"Name": "melon_slice",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "105",
+				"Name": "melon_stem",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "361",
+				"Name": "milk_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "370",
+				"Name": "minecart",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "52",
+				"Name": "mob_spawner",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "584",
+				"Name": "mojang_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "97",
+				"Name": "monster_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "440",
+				"Name": "mooshroom_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-320",
+				"Name": "moss_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-335",
+				"Name": "moss_carpet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "48",
+				"Name": "mossy_cobblestone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-179",
+				"Name": "mossy_cobblestone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-175",
+				"Name": "mossy_stone_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "250",
+				"Name": "moving_block",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "-473", "Name": "mud", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-479",
+				"Name": "mud_brick_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-478",
+				"Name": "mud_brick_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-480",
+				"Name": "mud_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-481",
+				"Name": "mud_brick_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-475",
+				"Name": "mud_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "466",
+				"Name": "mule_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "260",
+				"Name": "mushroom_stew",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "544",
+				"Name": "music_disc_11",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "534",
+				"Name": "music_disc_13",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "536",
+				"Name": "music_disc_blocks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "535",
+				"Name": "music_disc_cat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "537",
+				"Name": "music_disc_chirp",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "538",
+				"Name": "music_disc_far",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "539",
+				"Name": "music_disc_mall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "540",
+				"Name": "music_disc_mellohi",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "627",
+				"Name": "music_disc_otherside",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "621",
+				"Name": "music_disc_pigstep",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "541",
+				"Name": "music_disc_stal",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "542",
+				"Name": "music_disc_strad",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "545",
+				"Name": "music_disc_wait",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "543",
+				"Name": "music_disc_ward",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "550", "Name": "mutton", "Aux Values (if applicable)": "" },
+			{
+				"ID": "110",
+				"Name": "mycelium",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "548",
+				"Name": "name_tag",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "570",
+				"Name": "nautilus_shell",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "112",
+				"Name": "nether_brick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "113",
+				"Name": "nether_brick_fence",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "114",
+				"Name": "nether_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-288",
+				"Name": "nether_gold_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "622",
+				"Name": "nether_sprouts",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "518",
+				"Name": "nether_star",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "294",
+				"Name": "nether_wart",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "214",
+				"Name": "nether_wart_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "523",
+				"Name": "netherbrick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "608",
+				"Name": "netherite_axe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-270",
+				"Name": "netherite_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "613",
+				"Name": "netherite_boots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "611",
+				"Name": "netherite_chestplate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "610",
+				"Name": "netherite_helmet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "609",
+				"Name": "netherite_hoe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "604",
+				"Name": "netherite_ingot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "612",
+				"Name": "netherite_leggings",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "607",
+				"Name": "netherite_pickaxe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "614",
+				"Name": "netherite_scrap",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "606",
+				"Name": "netherite_shovel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "605",
+				"Name": "netherite_sword",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "87",
+				"Name": "netherrack",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "247",
+				"Name": "netherreactor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-180",
+				"Name": "normal_stone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "25",
+				"Name": "noteblock",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "470",
+				"Name": "npc_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "375",
+				"Name": "oak_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "634",
+				"Name": "oak_chest_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "358",
+				"Name": "oak_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "53",
+				"Name": "oak_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "251",
+				"Name": "observer",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "49",
+				"Name": "obsidian",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "451",
+				"Name": "ocelot_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-471",
+				"Name": "ochre_froglight",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-414",
+				"Name": "orange_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-431",
+				"Name": "orange_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "409",
+				"Name": "orange_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "221",
+				"Name": "orange_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-343",
+				"Name": "oxidized_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-350",
+				"Name": "oxidized_cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-364",
+				"Name": "oxidized_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-357",
+				"Name": "oxidized_cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-371",
+				"Name": "oxidized_double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "174",
+				"Name": "packed_ice",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-477",
+				"Name": "packed_mud",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "357",
+				"Name": "painting",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "489",
+				"Name": "panda_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "386", "Name": "paper", "Aux Values (if applicable)": "" },
+			{
+				"ID": "478",
+				"Name": "parrot_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-469",
+				"Name": "pearlescent_froglight",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "574",
+				"Name": "phantom_membrane",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "486",
+				"Name": "phantom_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "437",
+				"Name": "pig_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "587",
+				"Name": "piglin_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "499",
+				"Name": "piglin_brute_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "497",
+				"Name": "piglin_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "491",
+				"Name": "pillager_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-419",
+				"Name": "pink_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-436",
+				"Name": "pink_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "404",
+				"Name": "pink_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "226",
+				"Name": "pink_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "33", "Name": "piston", "Aux Values (if applicable)": "" },
+			{
+				"ID": "34",
+				"Name": "piston_arm_collision",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "5", "Name": "planks", "Aux Values (if applicable)": "" },
+			{ "ID": "243", "Name": "podzol", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-308",
+				"Name": "pointed_dripstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "282",
+				"Name": "poisonous_potato",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "472",
+				"Name": "polar_bear_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-174",
+				"Name": "polished_andesite_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-235",
+				"Name": "polished_basalt",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-291",
+				"Name": "polished_blackstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-285",
+				"Name": "polished_blackstone_brick_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-284",
+				"Name": "polished_blackstone_brick_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-275",
+				"Name": "polished_blackstone_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-278",
+				"Name": "polished_blackstone_brick_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-274",
+				"Name": "polished_blackstone_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-296",
+				"Name": "polished_blackstone_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-294",
+				"Name": "polished_blackstone_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-295",
+				"Name": "polished_blackstone_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-293",
+				"Name": "polished_blackstone_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-292",
+				"Name": "polished_blackstone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-297",
+				"Name": "polished_blackstone_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-383",
+				"Name": "polished_deepslate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-397",
+				"Name": "polished_deepslate_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-384",
+				"Name": "polished_deepslate_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-385",
+				"Name": "polished_deepslate_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-386",
+				"Name": "polished_deepslate_wall",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-173",
+				"Name": "polished_diorite_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-172",
+				"Name": "polished_granite_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "559",
+				"Name": "popped_chorus_fruit",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "262",
+				"Name": "porkchop",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "90", "Name": "portal", "Aux Values (if applicable)": "" },
+			{ "ID": "280", "Name": "potato", "Aux Values (if applicable)": "" },
+			{
+				"ID": "142",
+				"Name": "potatoes",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "426", "Name": "potion", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-306",
+				"Name": "powder_snow",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "368",
+				"Name": "powder_snow_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "150",
+				"Name": "powered_comparator",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "94",
+				"Name": "powered_repeater",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "168",
+				"Name": "prismarine",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-4",
+				"Name": "prismarine_bricks_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "549",
+				"Name": "prismarine_crystals",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "565",
+				"Name": "prismarine_shard",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-2",
+				"Name": "prismarine_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "267",
+				"Name": "pufferfish",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "367",
+				"Name": "pufferfish_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "481",
+				"Name": "pufferfish_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "86", "Name": "pumpkin", "Aux Values (if applicable)": "" },
+			{
+				"ID": "284",
+				"Name": "pumpkin_pie",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "292",
+				"Name": "pumpkin_seeds",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "104",
+				"Name": "pumpkin_stem",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-423",
+				"Name": "purple_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-440",
+				"Name": "purple_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "400",
+				"Name": "purple_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "219",
+				"Name": "purple_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "201",
+				"Name": "purpur_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "203",
+				"Name": "purpur_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "524", "Name": "quartz", "Aux Values (if applicable)": "" },
+			{
+				"ID": "155",
+				"Name": "quartz_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-304",
+				"Name": "quartz_bricks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "153",
+				"Name": "quartz_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "156",
+				"Name": "quartz_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "288", "Name": "rabbit", "Aux Values (if applicable)": "" },
+			{
+				"ID": "528",
+				"Name": "rabbit_foot",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "529",
+				"Name": "rabbit_hide",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "459",
+				"Name": "rabbit_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "290",
+				"Name": "rabbit_stew",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "66", "Name": "rail", "Aux Values (if applicable)": "" },
+			{
+				"ID": "598",
+				"Name": "rapid_fertilizer",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "493",
+				"Name": "ravager_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "507",
+				"Name": "raw_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-452",
+				"Name": "raw_copper_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "506",
+				"Name": "raw_gold",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-453",
+				"Name": "raw_gold_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "505",
+				"Name": "raw_iron",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-451",
+				"Name": "raw_iron_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "43",
+				"Name": "real_double_stone_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "181",
+				"Name": "real_double_stone_slab2",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-167",
+				"Name": "real_double_stone_slab3",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-168",
+				"Name": "real_double_stone_slab4",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-427",
+				"Name": "red_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-444",
+				"Name": "red_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "396",
+				"Name": "red_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "38",
+				"Name": "red_flower",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "234",
+				"Name": "red_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "40",
+				"Name": "red_mushroom",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "100",
+				"Name": "red_mushroom_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "215",
+				"Name": "red_nether_brick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-184",
+				"Name": "red_nether_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "179",
+				"Name": "red_sandstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "180",
+				"Name": "red_sandstone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "373",
+				"Name": "redstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "152",
+				"Name": "redstone_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "123",
+				"Name": "redstone_lamp",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "73",
+				"Name": "redstone_ore",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "76",
+				"Name": "redstone_torch",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "55",
+				"Name": "redstone_wire",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-466",
+				"Name": "reinforced_deepslate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "419",
+				"Name": "repeater",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "188",
+				"Name": "repeating_command_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "255",
+				"Name": "reserved6",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-272",
+				"Name": "respawn_anchor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "277",
+				"Name": "rotten_flesh",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "371", "Name": "saddle", "Aux Values (if applicable)": "" },
+			{ "ID": "265", "Name": "salmon", "Aux Values (if applicable)": "" },
+			{
+				"ID": "365",
+				"Name": "salmon_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "482",
+				"Name": "salmon_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "12", "Name": "sand", "Aux Values (if applicable)": "" },
+			{
+				"ID": "24",
+				"Name": "sandstone",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "128",
+				"Name": "sandstone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "6", "Name": "sapling", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-165",
+				"Name": "scaffolding",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "-458", "Name": "sculk", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-460",
+				"Name": "sculk_catalyst",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-307",
+				"Name": "sculk_sensor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-461",
+				"Name": "sculk_shrieker",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-459",
+				"Name": "sculk_vein",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "572", "Name": "scute", "Aux Values (if applicable)": "" },
+			{
+				"ID": "169",
+				"Name": "sea_lantern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-156",
+				"Name": "sea_pickle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-130",
+				"Name": "seagrass",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "169",
+				"Name": "sealantern",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "421", "Name": "shears", "Aux Values (if applicable)": "" },
+			{
+				"ID": "438",
+				"Name": "sheep_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "355", "Name": "shield", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-230",
+				"Name": "shroomlight",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "218",
+				"Name": "shulker_box",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "566",
+				"Name": "shulker_shell",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "469",
+				"Name": "shulker_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "228",
+				"Name": "silver_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "443",
+				"Name": "silverfish_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "467",
+				"Name": "skeleton_horse_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "444",
+				"Name": "skeleton_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "516",
+				"Name": "skull",
+				"Aux Values (if applicable)": "0 = Skeleton, 1 = Wither, 2 = Zombie, 3 = Steve, 4 = Creeper, 5 = Dragon"
+			},
+			{
+				"ID": "583",
+				"Name": "skull_banner_pattern",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "165", "Name": "slime", "Aux Values (if applicable)": "" },
+			{
+				"ID": "388",
+				"Name": "slime_ball",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "445",
+				"Name": "slime_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-332",
+				"Name": "small_amethyst_bud",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-336",
+				"Name": "small_dripleaf_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-202",
+				"Name": "smithing_table",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-198",
+				"Name": "smoker",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-377",
+				"Name": "smooth_basalt",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-185",
+				"Name": "smooth_quartz_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-176",
+				"Name": "smooth_red_sandstone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-177",
+				"Name": "smooth_sandstone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-183",
+				"Name": "smooth_stone",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "80", "Name": "snow", "Aux Values (if applicable)": "" },
+			{
+				"ID": "78",
+				"Name": "snow_layer",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "374",
+				"Name": "snowball",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "623",
+				"Name": "soul_campfire",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-237",
+				"Name": "soul_fire",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-269",
+				"Name": "soul_lantern",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "88",
+				"Name": "soul_sand",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-236",
+				"Name": "soul_soil",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-268",
+				"Name": "soul_torch",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "601",
+				"Name": "sparkler",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "644",
+				"Name": "spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "278",
+				"Name": "spider_eye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "446",
+				"Name": "spider_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "561",
+				"Name": "splash_potion",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "19", "Name": "sponge", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-321",
+				"Name": "spore_blossom",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "378",
+				"Name": "spruce_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-144",
+				"Name": "spruce_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "637",
+				"Name": "spruce_chest_boat",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "553",
+				"Name": "spruce_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "183",
+				"Name": "spruce_fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-154",
+				"Name": "spruce_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "576",
+				"Name": "spruce_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "134",
+				"Name": "spruce_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-181",
+				"Name": "spruce_standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-149",
+				"Name": "spruce_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-182",
+				"Name": "spruce_wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "626",
+				"Name": "spyglass",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "450",
+				"Name": "squid_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "241",
+				"Name": "stained_glass",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "160",
+				"Name": "stained_glass_pane",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "159",
+				"Name": "stained_hardened_clay",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "176",
+				"Name": "standing_banner",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "63",
+				"Name": "standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "320", "Name": "stick", "Aux Values (if applicable)": "" },
+			{
+				"ID": "29",
+				"Name": "sticky_piston",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-217",
+				"Name": "sticky_piston_arm_collision",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "1", "Name": "stone", "Aux Values (if applicable)": "" },
+			{
+				"ID": "315",
+				"Name": "stone_axe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "109",
+				"Name": "stone_brick_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "77",
+				"Name": "stone_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "330",
+				"Name": "stone_hoe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "314",
+				"Name": "stone_pickaxe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "70",
+				"Name": "stone_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "313",
+				"Name": "stone_shovel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "67",
+				"Name": "stone_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "312",
+				"Name": "stone_sword",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "98",
+				"Name": "stonebrick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "245",
+				"Name": "stonecutter",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-197",
+				"Name": "stonecutter_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "462",
+				"Name": "stray_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "495",
+				"Name": "strider_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "326", "Name": "string", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-8",
+				"Name": "stripped_acacia_log",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-6",
+				"Name": "stripped_birch_log",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-300",
+				"Name": "stripped_crimson_hyphae",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-240",
+				"Name": "stripped_crimson_stem",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-9",
+				"Name": "stripped_dark_oak_log",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-7",
+				"Name": "stripped_jungle_log",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-10",
+				"Name": "stripped_oak_log",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-5",
+				"Name": "stripped_spruce_log",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-301",
+				"Name": "stripped_warped_hyphae",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-241",
+				"Name": "stripped_warped_stem",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "252",
+				"Name": "structure_block",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "217",
+				"Name": "structure_void",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "416", "Name": "sugar", "Aux Values (if applicable)": "" },
+			{
+				"ID": "385",
+				"Name": "sugar_cane",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "590",
+				"Name": "suspicious_stew",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "287",
+				"Name": "sweet_berries",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-207",
+				"Name": "sweet_berry_bush",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "630",
+				"Name": "tadpole_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "629",
+				"Name": "tadpole_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "31",
+				"Name": "tallgrass",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-239",
+				"Name": "target",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-334",
+				"Name": "tinted_glass",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "46", "Name": "tnt", "Aux Values (if applicable)": "" },
+			{
+				"ID": "525",
+				"Name": "tnt_minecart",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "50", "Name": "torch", "Aux Values (if applicable)": "" },
+			{
+				"ID": "568",
+				"Name": "totem_of_undying",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "96",
+				"Name": "trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "146",
+				"Name": "trapped_chest",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "546",
+				"Name": "trident",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "132",
+				"Name": "trip_wire",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "131",
+				"Name": "tripwire_hook",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "266",
+				"Name": "tropical_fish",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "366",
+				"Name": "tropical_fish_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "479",
+				"Name": "tropical_fish_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "-333", "Name": "tuff", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-159",
+				"Name": "turtle_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "573",
+				"Name": "turtle_helmet",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "485",
+				"Name": "turtle_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-287",
+				"Name": "twisting_vines",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "239",
+				"Name": "underwater_torch",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "205",
+				"Name": "undyed_shulker_box",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-305",
+				"Name": "unknown",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "75",
+				"Name": "unlit_redstone_torch",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "149",
+				"Name": "unpowered_comparator",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "93",
+				"Name": "unpowered_repeater",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-470",
+				"Name": "verdant_froglight",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "476",
+				"Name": "vex_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "449",
+				"Name": "villager_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "474",
+				"Name": "vindicator_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "106", "Name": "vine", "Aux Values (if applicable)": "" },
+			{
+				"ID": "177",
+				"Name": "wall_banner",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "68",
+				"Name": "wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "492",
+				"Name": "wandering_trader_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "632",
+				"Name": "warden_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-261",
+				"Name": "warped_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "618",
+				"Name": "warped_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-267",
+				"Name": "warped_double_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-257",
+				"Name": "warped_fence",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-259",
+				"Name": "warped_fence_gate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-229",
+				"Name": "warped_fungus",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "619",
+				"Name": "warped_fungus_on_a_stick",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-298",
+				"Name": "warped_hyphae",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-233",
+				"Name": "warped_nylium",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-243",
+				"Name": "warped_planks",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-263",
+				"Name": "warped_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-224",
+				"Name": "warped_roots",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "616",
+				"Name": "warped_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-265",
+				"Name": "warped_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-255",
+				"Name": "warped_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-251",
+				"Name": "warped_standing_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-226",
+				"Name": "warped_stem",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-247",
+				"Name": "warped_trapdoor",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-253",
+				"Name": "warped_wall_sign",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-227",
+				"Name": "warped_wart_block",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "9", "Name": "water", "Aux Values (if applicable)": "" },
+			{
+				"ID": "362",
+				"Name": "water_bucket",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "111",
+				"Name": "waterlily",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-344",
+				"Name": "waxed_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-351",
+				"Name": "waxed_cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-365",
+				"Name": "waxed_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-358",
+				"Name": "waxed_cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-372",
+				"Name": "waxed_double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-345",
+				"Name": "waxed_exposed_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-352",
+				"Name": "waxed_exposed_cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-366",
+				"Name": "waxed_exposed_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-359",
+				"Name": "waxed_exposed_cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-373",
+				"Name": "waxed_exposed_double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-446",
+				"Name": "waxed_oxidized_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-447",
+				"Name": "waxed_oxidized_cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-449",
+				"Name": "waxed_oxidized_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-448",
+				"Name": "waxed_oxidized_cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-450",
+				"Name": "waxed_oxidized_double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-346",
+				"Name": "waxed_weathered_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-353",
+				"Name": "waxed_weathered_cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-367",
+				"Name": "waxed_weathered_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-360",
+				"Name": "waxed_weathered_cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-374",
+				"Name": "waxed_weathered_double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-342",
+				"Name": "weathered_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-349",
+				"Name": "weathered_cut_copper",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-363",
+				"Name": "weathered_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-356",
+				"Name": "weathered_cut_copper_stairs",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-370",
+				"Name": "weathered_double_cut_copper_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "30", "Name": "web", "Aux Values (if applicable)": "" },
+			{
+				"ID": "-231",
+				"Name": "weeping_vines",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "334", "Name": "wheat", "Aux Values (if applicable)": "" },
+			{
+				"ID": "291",
+				"Name": "wheat_seeds",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-413",
+				"Name": "white_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-430",
+				"Name": "white_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "410",
+				"Name": "white_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "220",
+				"Name": "white_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "452",
+				"Name": "witch_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-216",
+				"Name": "wither_rose",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "464",
+				"Name": "wither_skeleton_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "439",
+				"Name": "wolf_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "-212", "Name": "wood", "Aux Values (if applicable)": "" },
+			{
+				"ID": "311",
+				"Name": "wooden_axe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "143",
+				"Name": "wooden_button",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "359",
+				"Name": "wooden_door",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "329",
+				"Name": "wooden_hoe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "310",
+				"Name": "wooden_pickaxe",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "72",
+				"Name": "wooden_pressure_plate",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "309",
+				"Name": "wooden_shovel",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "158",
+				"Name": "wooden_slab",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "308",
+				"Name": "wooden_sword",
+				"Aux Values (if applicable)": ""
+			},
+			{ "ID": "35", "Name": "wool", "Aux Values (if applicable)": "" },
+			{
+				"ID": "510",
+				"Name": "writable_book",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "511",
+				"Name": "written_book",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-417",
+				"Name": "yellow_candle",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "-434",
+				"Name": "yellow_candle_cake",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "406",
+				"Name": "yellow_dye",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "37",
+				"Name": "yellow_flower",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "224",
+				"Name": "yellow_glazed_terracotta",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "498",
+				"Name": "zoglin_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "468",
+				"Name": "zombie_horse_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "448",
+				"Name": "zombie_pigman_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "447",
+				"Name": "zombie_spawn_egg",
+				"Aux Values (if applicable)": ""
+			},
+			{
+				"ID": "477",
+				"Name": "zombie_villager_spawn_egg",
+				"Aux Values (if applicable)": ""
+			}
+		]
+	}
+]

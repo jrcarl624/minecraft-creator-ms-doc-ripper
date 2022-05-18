@@ -1,0 +1,162 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Item Documentation - Item Component List",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Item Documentation - Item Components" },
+	{
+		"type": "other",
+		"data": "Below is a list of all the available Item Components within Minecraft:Bedrock Edition for use with Item JSON files."
+	},
+	{ "type": "other", "data": ">[!IMPORTANT]" },
+	{
+		"type": "quote",
+		"data": "Item Components requires the Holiday Creator Features experimental toggle to be set to `true` in order to function properly."
+	},
+	{ "type": "other", "data": ">" },
+	{
+		"type": "other",
+		"data": ">Holiday Creator Features contains experimental gameplay features. As with all experiments, you may see additions, removals, and changes in functionality in Minecraft versions without significant advanced warning."
+	},
+	{ "type": "other", "data": ">" },
+	{
+		"type": "other",
+		"data": ">To learn more about Experimental Features, please visit [Experimental Features in Minecraft: Bedrock Edition](../../../../../Documents/ExperimentalFeaturesToggle.md)"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "[minecraft:armor](ItemComponents/minecraft_armor.md)",
+				"Default Value": "*not set*",
+				"Type": " JSON Object",
+				"Description": "The armor item component determines the amount of protection you have in your armor item."
+			},
+			{
+				"Name": "[minecraft:block_placer](ItemComponents/minecraft_block_placer.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Planter item component. Planter items are items that can be planted."
+			},
+			{
+				"Name": "[minecraft:cooldown](ItemComponents/minecraft_cooldown.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Cool down time for a component. After you use an item it becomes unusable for the duration specified by the 'cool down time' setting in this component."
+			},
+			{
+				"Name": "[minecraft:digger](ItemComponents/minecraft_digger.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Digger item. Component put on items that dig."
+			},
+			{
+				"Name": "[minecraft:display_name](ItemComponents/minecraft_display_name.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Display Name item component. Display Names display the name of an item."
+			},
+			{
+				"Name": "[minecraft:durability](ItemComponents/minecraft_durability.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Durability item component: how much damage can this item take before breaking."
+			},
+			{
+				"Name": "[minecraft:dye_powder](ItemComponents/minecraft_dye_powder.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Dye powder, there are 16 kinds of dye."
+			},
+			{
+				"Name": "[minecraft:entity_placer](ItemComponents/minecraft_entity_placer.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Entity placer item component. You can specify allowed blocks that the item is restricted to."
+			},
+			{
+				"Name": "[minecraft:food](ItemComponents/minecraft_food.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " When an item has a food component, it becomes edible to the player."
+			},
+			{
+				"Name": "[minecraft:fuel](ItemComponents/minecraft_fuel.md)",
+				"Default Value": "*not set*",
+				"Type": " JSON Object",
+				"Description": "Fuel component. Allows this item to be used as fuel in a furnace to 'cook' other items."
+			},
+			{
+				"Name": "[minecraft:icon](ItemComponents/minecraft_icon.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " The icon item component determines the icon to represent the item in the UI and elsewhere."
+			},
+			{
+				"Name": "[minecraft:knockback_resistance](ItemComponents/minecraft_knockback_resistance.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Knockback Resistance Item. Component put on items that provide knockback resistance."
+			},
+			{
+				"Name": "[minecraft:on_use](ItemComponents/minecraft_on_use.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " The on_use item component allows you to receive an event when the item is used."
+			},
+			{
+				"Name": "[minecraft:on_use_on](ItemComponents/minecraft_on_use_on.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": "The on_use_on item component allows you to receive an event when the item is used on a block in the world"
+			},
+			{
+				"Name": "[minecraft:projectile](ItemComponents/minecraft_projectile.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": "Projectile item component. Projectile items shoot out, like an arrow."
+			},
+			{
+				"Name": "[minecraft:render_offsets](ItemComponents/minecraft_render_offsets.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Render offsets component: optional values can be given to offset the way the item is rendered."
+			},
+			{
+				"Name": "[minecraft:repairable](ItemComponents/minecraft_repairable.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Repairable item component: how much damage can this item repair, what items can repair it."
+			},
+			{
+				"Name": "[minecraft:shooter](ItemComponents/minecraft_shooter.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Shooter Item Component."
+			},
+			{
+				"Name": "[minecraft:throwable](ItemComponents/minecraft_throwable.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Throwable item component. Throwable items, such as a snowball."
+			},
+			{
+				"Name": "[minecraft:weapon](ItemComponents/minecraft_weapon.md)",
+				"Default Value": "*not set*",
+				"Type": " JSON Object",
+				"Description": "Weapon Item Component. Added to every weapon item such as axe, sword, trident, bow, crossbow."
+			},
+			{
+				"Name": "[minecraft:wearable](ItemComponents/minecraft_wearable.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": "Wearable item component"
+			}
+		]
+	}
+]

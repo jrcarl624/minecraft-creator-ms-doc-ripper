@@ -1,0 +1,1 @@
+[{"type":"yamlHeader","data":{"author":"v-jeffreykim","ms.author":"v-jeffreykim","title":"Schema Documentation - chance_information:1.14.0","ms.prod":"gaming"}},{"type":"heading","data":"Schema Documentation - chance_information:1.14.0"},{"type":"other","data":"This schema corresponds to how chance and probability are calculated in JSON files."},{"type":"code","language":"json"}]

@@ -1,0 +1,38 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "docsbryce",
+			"ms.author": "v-bbortree",
+			"title": "Volume Documentation - minecraft:bounds",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Volume Documentation - minecraft:bounds" },
+	{
+		"type": "other",
+		"data": "`minecraft:bounds` is a Volume Component that is defined by three parameters. Each item has the following properties:"
+	},
+	{ "type": "heading", "data": "Default Parameter" },
+	{
+		"type": "table",
+		"data": [{ "Default Value": "0.0", "Type": "Decimal" }]
+	},
+	{ "type": "heading", "data": "Extra Parameters" },
+	{
+		"type": "other",
+		"data": "`minecraft:bounds` does not use any extra parameters."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:bounds": {
+				"dimension": "overworld",
+				"min": [-50, -64, -50],
+				"max": [50, 320, 50]
+			}
+		},
+		"language": "json"
+	}
+]

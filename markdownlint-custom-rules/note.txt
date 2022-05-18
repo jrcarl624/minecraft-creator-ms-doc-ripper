@@ -1,0 +1,2 @@
+all files from this dir are from
+https://github.com/microsoft/vscode-docs-authoring/tree/main/packages/docs-linting/markdownlint-custom-rules

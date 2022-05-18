@@ -1,0 +1,51 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-jeffreykim",
+			"ms.author": "v-jeffreykim",
+			"title": "Features Documentation - minecraft:beards_and_shavers",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Features Documentation - minecraft:beards_and_shavers"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:beards_and_shavers` will build a 'beard' or 'shave' out space so as to provide a clear space for a feature to place."
+	},
+	{ "type": "other", "data": "**Succeeds if**" },
+	{
+		"type": "other",
+		"data": "A beard/shave is made (this should always happen)."
+	},
+	{ "type": "other", "data": "**Fails if**" },
+	{
+		"type": "other",
+		"data": "Will always return placement pos, but interior feature placement not guaranteed."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "heading",
+		"data": "Provides an area for interior structure placement"
+	},
+	{
+		"type": "code",
+		"data": {
+			"code:beards_and_shavers": {
+				"description": { "identifier": "..." },
+				"places_feature": "minecraft:feature_that_places_a_structure",
+				"bounding_box_min": [-2, 0, -2],
+				"bounding_box_max": [2, 8, 2],
+				"y_delta": 2,
+				"surface_block_type": "minecraft:grass",
+				"subsurface_block_type": "minecraft:dirt",
+				"beard_raggedness_min": 0.1,
+				"beard_raggedness_max": 0.3
+			}
+		},
+		"language": "json"
+	}
+]

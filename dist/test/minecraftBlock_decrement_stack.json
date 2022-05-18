@@ -1,0 +1,23 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Block Documentation - decrement_stack",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Block Documentation - decrement_stack" },
+	{
+		"type": "other",
+		"data": "`decrement_stack` is an Event Response that will reduce an item stack."
+	},
+	{ "type": "heading", "data": "Extra Parameters" },
+	{
+		"type": "other",
+		"data": "`decrement_stack` does not use any extra parameters."
+	},
+	{ "type": "heading", "data": "Example" },
+	{ "type": "code", "data": { "decrement_stack": {} }, "language": "json" }
+]

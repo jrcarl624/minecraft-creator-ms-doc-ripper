@@ -1,0 +1,75 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Recipe Documentation - Potion Brewing Mix",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Recipe Documentation - Potion Brewing Mix" },
+	{ "type": "other", "data": "Represents a Potion Brewing Mix." },
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "input",
+				"Type": "potion",
+				"Description": "Input potion used on the brewing stand."
+			},
+			{
+				"Name": "output",
+				"Type": "potion",
+				"Description": "Output potion from mixing the input potion with the reagent on the brewing stand."
+			},
+			{
+				"Name": "reagent",
+				"Type": "item",
+				"Description": "Item used to mix with input potion."
+			},
+			{
+				"Name": "tags",
+				"Type": "String array",
+				"Description": "Item used to make a brewing mix."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Potion Brewing Mix Example" },
+	{
+		"type": "code",
+		"data": {
+			"format_version": "1.18",
+			"minecraft:recipe_brewing_mix": {
+				"description": {
+					"identifier": "minecraft:brew_awkward_blaze_powder"
+				},
+				"tags": ["brewing_stand"],
+				"input": "minecraft:potion_type:awkward",
+				"reagent": "minecraft:blaze_powder",
+				"output": "minecraft:potion_type:strength"
+			}
+		},
+		"language": "JSON"
+	},
+	{ "type": "heading", "data": "Vanilla Example" },
+	{ "type": "heading", "data": "Slow-Falling Redstone potion" },
+	{
+		"type": "code",
+		"data": {
+			"format_version": "1.12",
+			"minecraft:recipe_brewing_mix": {
+				"description": {
+					"identifier": "minecraft:brew_slow_falling_redstone"
+				},
+				"tags": ["brewing_stand"],
+				"input": "minecraft:potion_type:slow_falling",
+				"reagent": "minecraft:redstone",
+				"output": "minecraft:potion_type:long_slow_falling"
+			}
+		},
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack_Snippets/recipes/brew_slow_falling_redstone.json"
+	}
+]

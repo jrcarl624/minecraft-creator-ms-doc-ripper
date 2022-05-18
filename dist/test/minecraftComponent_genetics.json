@@ -1,0 +1,238 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-jeffreykim",
+			"ms.author": "v-jeffreykim",
+			"title": "Entity Documentation - minecraft:genetics",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Entity Documentation - minecraft:genetics" },
+	{
+		"type": "other",
+		"data": "`minecraft:genetics` defines the way a mob's genes and alleles are passed on to its offspring, and how those traits manifest in the child. Compatible parent genes are crossed together, the alleles are handed down from the parents to the child, and any matching genetic variants fire off JSON events to modify the child and express the traits."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "genes",
+				"Default Value": "*not set*",
+				"Type": "List",
+				"Description": "The list of genes that this entity has and will cross with a partner during breeding."
+			},
+			{
+				"Name": "mutation_rate",
+				"Default Value": "0.03125",
+				"Type": "Decimal",
+				"Description": "Chance that an allele will be replaced with a random one instead of the parent's allele during birth."
+			}
+		]
+	},
+	{ "type": "heading", "data": "genes" },
+	{
+		"type": "other",
+		"data": "`genes` is a list defined by three parameters. Each item has the following properties:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "allele_range",
+				"Default Value": "*not set*",
+				"Type": "Integer",
+				"Description": "The range of positive integer allele values for this gene. Spawned mobs will have a random number in this range assigned to them."
+			},
+			{
+				"Name": "genetic_variants",
+				"Default Value": "*not set*",
+				"Type": "List",
+				"Description": "The list of genetic variants for this gene. These check for particular allele combinations and fire events when all of them are satisfied."
+			},
+			{
+				"Name": "name",
+				"Default Value": "*not set*",
+				"Type": "String",
+				"Description": "The name of the gene."
+			}
+		]
+	},
+	{ "type": "heading", "data": "allele_range" },
+	{
+		"type": "other",
+		"data": "`allele_range` is an integer defined by two parameters. Each item has the following properties:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "range_max",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "Upper bound of the allele values for this gene."
+			},
+			{
+				"Name": "range_min",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "Lower bound of the allele values for this gene."
+			}
+		]
+	},
+	{ "type": "heading", "data": "genetic_variants" },
+	{
+		"type": "other",
+		"data": "`genetic_variants` is an decimal defined by five parameters. Each item has the following properties:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "birth_event",
+				"Default Value": "*not set*",
+				"Type": "String",
+				"Description": "Event to run when this mob is created and matches the allele conditions."
+			},
+			{
+				"Name": "both_allele",
+				"Default Value": "-1",
+				"Type": "Integer",
+				"Description": "If this value is non-negative, compare both the mob's main and hidden alleles with this value for a match with both. Can also be a range of integers."
+			},
+			{
+				"Name": "either_allele",
+				"Default Value": "-1",
+				"Type": "Integer",
+				"Description": "If this value is non-negative, compare both the mob's main and hidden alleles with this value for a match with either. Can also be a range of integers."
+			},
+			{
+				"Name": "hidden_allele",
+				"Default Value": "-1",
+				"Type": "Integer",
+				"Description": "If this value is non-negative, compare the mob's hidden allele with this value for a match. Can also be a range of integers."
+			},
+			{
+				"Name": "main_allele",
+				"Default Value": "-1",
+				"Type": "Integer",
+				"Description": "If this value is non-negative, compare the mob's main allele with this value for a match. Can also be a range of integers."
+			},
+			{
+				"Name": "mutation_rate",
+				"Default Value": "-1",
+				"Type": "Decimal",
+				"Description": "If this value is non-negative, overrides the chance for this gene that an allele will be replaced with a random one instead of the parent's allele during birth. Non-negative values greater than `1` will be the same as the value `1`."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:genetics": {
+				"genes": [
+					{
+						"allele_range": { "range_max": 0, "range_min": 0 },
+						"genetic_variants": [
+							{
+								"birth_event": {
+									"event": "minecraft:born_screamer",
+									"target": "self"
+								},
+								"main_allele": {
+									"range_min": 1,
+									"range_max": 2
+								}
+							}
+						],
+						"name": "gene"
+					}
+				],
+				"mutation_rate": 0.03125
+			}
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "panda" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:genetics": {
+				"mutation_rate": 0.03125,
+				"genes": [
+					{
+						"name": "panda_variant",
+						"allele_range": { "range_min": 0, "range_max": 15 },
+						"genetic_variants": [
+							{
+								"main_allele": 0,
+								"birth_event": {
+									"event": "minecraft:panda_lazy",
+									"target": "self"
+								}
+							},
+							{
+								"main_allele": 1,
+								"birth_event": {
+									"event": "minecraft:panda_worried",
+									"target": "self"
+								}
+							},
+							{
+								"main_allele": 2,
+								"birth_event": {
+									"event": "minecraft:panda_playful",
+									"target": "self"
+								}
+							},
+							{
+								"main_allele": 3,
+								"birth_event": {
+									"event": "minecraft:panda_aggressive",
+									"target": "self"
+								}
+							},
+							{
+								"both_allele": {
+									"range_min": 4,
+									"range_max": 7
+								},
+								"birth_event": {
+									"event": "minecraft:panda_weak",
+									"target": "self"
+								}
+							},
+							{
+								"both_allele": {
+									"range_min": 8,
+									"range_max": 9
+								},
+								"birth_event": {
+									"event": "minecraft:panda_brown",
+									"target": "self"
+								}
+							}
+						]
+					}
+				]
+			}
+		},
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/entities/panda.json",
+		"range": [471, 532]
+	},
+	{
+		"type": "heading",
+		"data": "Vanilla entities using `minecraft:genetics`"
+	},
+	{
+		"type": "list",
+		"data": [
+			"[goat](../../../../Source/VanillaBehaviorPack_Snippets/entities/goat.md)",
+			"[panda](../../../../Source/VanillaBehaviorPack_Snippets/entities/panda.md)"
+		]
+	}
+]

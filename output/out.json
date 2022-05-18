@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "name",
+    "cwd": "./",
+    "src": "./md/",
+    "filePattern": "skin_id.md",
+    "ignore": "",
+    "dist": "output/out.json",
+    "version": "1.6.1"
+  },
+  "data": [
+    {
+      "id": "skin_id",
+      "contents": "<h1 id=\"entity-documentation---is_skin_id\">Entity Documentation - is_skin_id</h1>\n<p>Returns true if the subject entity uses the skin id number provided.</p>\n<h2 id=\"parameters\">Parameters</h2>\n<table>\n<thead>\n<tr>\n<th>Name</th>\n<th>Default Value</th>\n<th>Type</th>\n<th>Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>value</td>\n<td><em>not set</em></td>\n<td>Integer</td>\n<td>(Required)  An integer value.</td>\n</tr>\n</tbody></table>\n<blockquote>\n<p>[!Note]\n<code>is_skin_id</code> can also use <code>subject</code> and <a href=\"../Definitions/NestedTables/operator.md\">operator</a> parameters but they are optional.</p>\n</blockquote>\n<h3 id=\"subject\">subject</h3>\n<table>\n<thead>\n<tr>\n<th align=\"left\">Options</th>\n<th align=\"left\">Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"left\">block</td>\n<td align=\"left\">The block involved with the interaction.</td>\n</tr>\n<tr>\n<td align=\"left\">damager</td>\n<td align=\"left\">The damaging actor involved with the interaction.</td>\n</tr>\n<tr>\n<td align=\"left\">other</td>\n<td align=\"left\">The other member of an interaction, not the caller.</td>\n</tr>\n<tr>\n<td align=\"left\">parent</td>\n<td align=\"left\">The caller&#39;s current parent.</td>\n</tr>\n<tr>\n<td align=\"left\">player</td>\n<td align=\"left\">The player involved with the interaction.</td>\n</tr>\n<tr>\n<td align=\"left\">self</td>\n<td align=\"left\">The entity or object calling the test</td>\n</tr>\n<tr>\n<td align=\"left\">target</td>\n<td align=\"left\">The caller&#39;s current target.</td>\n</tr>\n</tbody></table>\n<h3 id=\"operator\">operator</h3>\n<table>\n<thead>\n<tr>\n<th align=\"left\">Options</th>\n<th align=\"left\">Description</th>\n</tr>\n</thead>\n<tbody><tr>\n<td align=\"left\">!=</td>\n<td align=\"left\">Test for inequality.</td>\n</tr>\n<tr>\n<td align=\"left\">&lt;</td>\n<td align=\"left\">Test for less-than the value.</td>\n</tr>\n<tr>\n<td align=\"left\">&lt;=</td>\n<td align=\"left\">Test for less-than or equal to the value.</td>\n</tr>\n<tr>\n<td align=\"left\">&lt;&gt;</td>\n<td align=\"left\">Test for inequality.</td>\n</tr>\n<tr>\n<td align=\"left\">=</td>\n<td align=\"left\">Test for equality.</td>\n</tr>\n<tr>\n<td align=\"left\">==</td>\n<td align=\"left\">Test for equality.</td>\n</tr>\n<tr>\n<td align=\"left\">&gt;</td>\n<td align=\"left\">Test for greater-than the value.</td>\n</tr>\n<tr>\n<td align=\"left\">&gt;=</td>\n<td align=\"left\">Test for greater-than or equal to the value.</td>\n</tr>\n<tr>\n<td align=\"left\">equals</td>\n<td align=\"left\">Test for equality.</td>\n</tr>\n<tr>\n<td align=\"left\">not</td>\n<td align=\"left\">Test for inequality.</td>\n</tr>\n</tbody></table>\n<h2 id=\"example\">Example</h2>\n<h3 id=\"full\">Full</h3>\n<pre><code class=\"language-json\">{ &quot;test&quot;: &quot;is_skin_id&quot;, &quot;subject&quot;: &quot;self&quot;, &quot;operator&quot;: &quot;equals&quot;, &quot;value&quot;: true}</code></pre>\n<h3 id=\"short-using-defaults\">Short (using Defaults)</h3>\n<pre><code class=\"language-json\">{ &quot;test&quot;: &quot;is_skin_id&quot; }</code></pre>\n<h2 id=\"vanilla-entities-examples\">Vanilla entities examples</h2>\n<h3 id=\"villager_v2\">villager_v2</h3>\n<p>:::code language=&quot;json&quot; source=&quot;../../../../Source/VanillaBehaviorPack/entities/villager_v2.json&quot; range=&quot;2013-2066&quot;:::</p>\n<h2 id=\"vanilla-entities-using-is_skin_id\">Vanilla entities using <code>is_skin_id</code></h2>\n<ul>\n<li><a href=\"../../../../Source/VanillaBehaviorPack_Snippets/entities/villager_v2.md\">villager_v2</a></li>\n<li><a href=\"../../../../Source/VanillaBehaviorPack_Snippets/entities/zombie_villager_v2.md\">zombie_villager_v2</a></li>\n</ul>\n",
+      "author": "v-josjones",
+      "ms.author": "v-josjones",
+      "title": "Entity Documentation - is_skin_id",
+      "ms.prod": "gaming",
+      "excerpt": "<p>Returns true if the subject entity uses the skin id number provided.</p>"
+    }
+  ]
+}

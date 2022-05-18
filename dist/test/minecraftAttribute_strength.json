@@ -1,0 +1,59 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Entity Documentation - minecraft:strength",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Entity Documentation - minecraft:strength" },
+	{
+		"type": "other",
+		"data": "`minecraft:strength` defines the entity's ability to carry items."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "max",
+				"Default Value": "5",
+				"Type": "Integer",
+				"Description": "The maximum strength of this entity"
+			},
+			{
+				"Name": "value",
+				"Default Value": "1",
+				"Type": "Integer",
+				"Description": " The initial value of the strength"
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": { "minecraft:strength": { "max": 9000, "value": 1 } },
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "llama" },
+	{
+		"type": "code",
+		"data": { "minecraft:strength": { "value": 1, "max": 5 } },
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/entities/llama.json",
+		"range": [99, 102]
+	},
+	{
+		"type": "heading",
+		"data": "Vanilla entities using `minecraft:strength`"
+	},
+	{
+		"type": "list",
+		"data": [
+			"[llama](../../../../Source/VanillaBehaviorPack_Snippets/entities/llama.md)"
+		]
+	}
+]

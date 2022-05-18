@@ -1,0 +1,1634 @@
+{
+	"./md/test.regexp": [
+		{
+			"lineNumber": 23,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: setext",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 45,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: setext",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 49,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 57,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 101,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 109,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 123,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 135,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 157,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 161,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 218,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 229,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 250,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 254,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 273,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 298,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 310,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 326,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 340,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 344,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 362,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 371,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 397,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 445,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 449,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 451,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 473,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 495,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 544,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 616,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 624,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 650,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 684,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 706,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 749,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 773,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 777,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 784,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 807,
+			"ruleName": "MD003",
+			"ruleDescription": "Heading style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md003",
+			"errorDetail": "Expected: atx_closed; Actual: atx",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "heading-style"
+		},
+		{
+			"lineNumber": 418,
+			"ruleName": "MD007",
+			"ruleDescription": "Unordered list indentation",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md007",
+			"errorDetail": "Expected: 4; Actual: 2",
+			"errorContext": null,
+			"errorRange": [1, 4],
+			"ruleAlias": "ul-indent"
+		},
+		{
+			"lineNumber": 439,
+			"ruleName": "MD007",
+			"ruleDescription": "Unordered list indentation",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md007",
+			"errorDetail": "Expected: 4; Actual: 2",
+			"errorContext": null,
+			"errorRange": [1, 4],
+			"ruleAlias": "ul-indent"
+		},
+		{
+			"lineNumber": 489,
+			"ruleName": "MD007",
+			"ruleDescription": "Unordered list indentation",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md007",
+			"errorDetail": "Expected: 4; Actual: 2",
+			"errorContext": null,
+			"errorRange": [1, 4],
+			"ruleAlias": "ul-indent"
+		},
+		{
+			"lineNumber": 490,
+			"ruleName": "MD007",
+			"ruleDescription": "Unordered list indentation",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md007",
+			"errorDetail": "Expected: 4; Actual: 2",
+			"errorContext": null,
+			"errorRange": [1, 4],
+			"ruleAlias": "ul-indent"
+		},
+		{
+			"lineNumber": 9,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 104",
+			"errorContext": null,
+			"errorRange": [81, 24],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 51,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 99",
+			"errorContext": null,
+			"errorRange": [81, 19],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 53,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 370",
+			"errorContext": null,
+			"errorRange": [81, 290],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 55,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 330",
+			"errorContext": null,
+			"errorRange": [81, 250],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 59,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 143",
+			"errorContext": null,
+			"errorRange": [81, 63],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 61,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 132",
+			"errorContext": null,
+			"errorRange": [81, 52],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 63,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 129",
+			"errorContext": null,
+			"errorRange": [81, 49],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 103,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 202",
+			"errorContext": null,
+			"errorRange": [81, 122],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 107,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 91",
+			"errorContext": null,
+			"errorRange": [81, 11],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 111,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 283",
+			"errorContext": null,
+			"errorRange": [81, 203],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 121,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 216",
+			"errorContext": null,
+			"errorRange": [81, 136],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 128,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 94",
+			"errorContext": null,
+			"errorRange": [81, 14],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 133,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 94",
+			"errorContext": null,
+			"errorRange": [81, 14],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 159,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 201",
+			"errorContext": null,
+			"errorRange": [81, 121],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 163,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 310",
+			"errorContext": null,
+			"errorRange": [81, 230],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 165,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 270",
+			"errorContext": null,
+			"errorRange": [81, 190],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 180,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 185",
+			"errorContext": null,
+			"errorRange": [81, 105],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 182,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 121",
+			"errorContext": null,
+			"errorRange": [81, 41],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 189,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 91",
+			"errorContext": null,
+			"errorRange": [81, 11],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 190,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 87",
+			"errorContext": null,
+			"errorRange": [81, 7],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 207,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 91",
+			"errorContext": null,
+			"errorRange": [81, 11],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 208,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 87",
+			"errorContext": null,
+			"errorRange": [81, 7],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 227,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 234",
+			"errorContext": null,
+			"errorRange": [81, 154],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 246,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 190",
+			"errorContext": null,
+			"errorRange": [81, 110],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 247,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 97",
+			"errorContext": null,
+			"errorRange": [81, 17],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 252,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 163",
+			"errorContext": null,
+			"errorRange": [81, 83],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 284,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 249",
+			"errorContext": null,
+			"errorRange": [81, 169],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 286,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 196",
+			"errorContext": null,
+			"errorRange": [81, 116],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 300,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 92",
+			"errorContext": null,
+			"errorRange": [81, 12],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 302,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 407",
+			"errorContext": null,
+			"errorRange": [81, 327],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 312,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 267",
+			"errorContext": null,
+			"errorRange": [81, 187],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 320,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 100",
+			"errorContext": null,
+			"errorRange": [81, 20],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 322,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 428",
+			"errorContext": null,
+			"errorRange": [81, 348],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 324,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 154",
+			"errorContext": null,
+			"errorRange": [81, 74],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 328,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 376",
+			"errorContext": null,
+			"errorRange": [81, 296],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 330,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 101",
+			"errorContext": null,
+			"errorRange": [81, 21],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 342,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 512",
+			"errorContext": null,
+			"errorRange": [81, 432],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 346,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 118",
+			"errorContext": null,
+			"errorRange": [81, 38],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 354,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 173",
+			"errorContext": null,
+			"errorRange": [81, 93],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 364,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 249",
+			"errorContext": null,
+			"errorRange": [81, 169],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 367,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 89",
+			"errorContext": null,
+			"errorRange": [81, 9],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 369,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 279",
+			"errorContext": null,
+			"errorRange": [81, 199],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 385,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 168",
+			"errorContext": null,
+			"errorRange": [81, 88],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 389,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 170",
+			"errorContext": null,
+			"errorRange": [81, 90],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 390,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 154",
+			"errorContext": null,
+			"errorRange": [81, 74],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 391,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 237",
+			"errorContext": null,
+			"errorRange": [81, 157],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 393,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 234",
+			"errorContext": null,
+			"errorRange": [81, 154],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 394,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 214",
+			"errorContext": null,
+			"errorRange": [81, 134],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 395,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 139",
+			"errorContext": null,
+			"errorRange": [81, 59],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 403,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 256",
+			"errorContext": null,
+			"errorRange": [81, 176],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 405,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 105",
+			"errorContext": null,
+			"errorRange": [81, 25],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 407,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 111",
+			"errorContext": null,
+			"errorRange": [81, 31],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 410,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 84",
+			"errorContext": null,
+			"errorRange": [81, 4],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 418,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 109",
+			"errorContext": null,
+			"errorRange": [81, 29],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 425,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 84",
+			"errorContext": null,
+			"errorRange": [81, 4],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 439,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 109",
+			"errorContext": null,
+			"errorRange": [81, 29],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 453,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 200",
+			"errorContext": null,
+			"errorRange": [81, 120],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 455,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 192",
+			"errorContext": null,
+			"errorRange": [81, 112],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 475,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 92",
+			"errorContext": null,
+			"errorRange": [81, 12],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 514,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 559",
+			"errorContext": null,
+			"errorRange": [81, 479],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 517,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 178",
+			"errorContext": null,
+			"errorRange": [81, 98],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 542,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 196",
+			"errorContext": null,
+			"errorRange": [81, 116],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 546,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 137",
+			"errorContext": null,
+			"errorRange": [81, 57],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 548,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 117",
+			"errorContext": null,
+			"errorRange": [81, 37],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 556,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 118",
+			"errorContext": null,
+			"errorRange": [81, 38],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 561,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 123",
+			"errorContext": null,
+			"errorRange": [81, 43],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 570,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 131",
+			"errorContext": null,
+			"errorRange": [81, 51],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 578,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 212",
+			"errorContext": null,
+			"errorRange": [81, 132],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 580,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 147",
+			"errorContext": null,
+			"errorRange": [81, 67],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 582,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 139",
+			"errorContext": null,
+			"errorRange": [81, 59],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 618,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 289",
+			"errorContext": null,
+			"errorRange": [81, 209],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 620,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 250",
+			"errorContext": null,
+			"errorRange": [81, 170],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 668,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 87",
+			"errorContext": null,
+			"errorRange": [81, 7],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 686,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 192",
+			"errorContext": null,
+			"errorRange": [81, 112],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 708,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 155",
+			"errorContext": null,
+			"errorRange": [81, 75],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 751,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 290",
+			"errorContext": null,
+			"errorRange": [81, 210],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 753,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 121",
+			"errorContext": null,
+			"errorRange": [81, 41],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 760,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 110",
+			"errorContext": null,
+			"errorRange": [81, 30],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 761,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 146",
+			"errorContext": null,
+			"errorRange": [81, 66],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 770,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 110",
+			"errorContext": null,
+			"errorRange": [81, 30],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 771,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 146",
+			"errorContext": null,
+			"errorRange": [81, 66],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 775,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 236",
+			"errorContext": null,
+			"errorRange": [81, 156],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 779,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 415",
+			"errorContext": null,
+			"errorRange": [81, 335],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 781,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 108",
+			"errorContext": null,
+			"errorRange": [81, 28],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 782,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 153",
+			"errorContext": null,
+			"errorRange": [81, 73],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 786,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 169",
+			"errorContext": null,
+			"errorRange": [81, 89],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 802,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 147",
+			"errorContext": null,
+			"errorRange": [81, 67],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 805,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 200",
+			"errorContext": null,
+			"errorRange": [81, 120],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 809,
+			"ruleName": "MD013",
+			"ruleDescription": "Line length",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md013",
+			"errorDetail": "Expected: 80; Actual: 121",
+			"errorContext": null,
+			"errorRange": [81, 41],
+			"ruleAlias": "line-length"
+		},
+		{
+			"lineNumber": 23,
+			"ruleName": "MD022",
+			"ruleDescription": "Headings should be surrounded by blank lines",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md022",
+			"errorDetail": "Expected: 1; Actual: 0; Above",
+			"errorContext": "title: Markdown reference for docs.microsoft.com",
+			"errorRange": null,
+			"ruleAlias": "blanks-around-headings"
+		},
+		{
+			"lineNumber": 45,
+			"ruleName": "MD022",
+			"ruleDescription": "Headings should be surrounded by blank lines",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md022",
+			"errorDetail": "Expected: 1; Actual: 0; Above",
+			"errorContext": "rrrrrrr",
+			"errorRange": null,
+			"ruleAlias": "blanks-around-headings"
+		},
+		{
+			"lineNumber": 566,
+			"ruleName": "MD031",
+			"ruleDescription": "Fenced code blocks should be surrounded by blank lines",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md031",
+			"errorDetail": null,
+			"errorContext": "> ```markdown",
+			"errorRange": null,
+			"ruleAlias": "blanks-around-fences"
+		},
+		{
+			"lineNumber": 641,
+			"ruleName": "MD032",
+			"ruleDescription": "Lists should be surrounded by blank lines",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md032",
+			"errorDetail": null,
+			"errorContext": "> - [Universal Windows](how-to...",
+			"errorRange": null,
+			"ruleAlias": "blanks-around-lists"
+		},
+		{
+			"lineNumber": 673,
+			"ruleName": "MD032",
+			"ruleDescription": "Lists should be surrounded by blank lines",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md032",
+			"errorDetail": null,
+			"errorContext": "> - [(iOS | .NET)](how-to-writ...",
+			"errorRange": null,
+			"ruleAlias": "blanks-around-lists"
+		},
+		{
+			"lineNumber": 1,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: playername",
+			"errorContext": null,
+			"errorRange": [4, 12],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 4,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: image",
+			"errorContext": null,
+			"errorRange": [3, 7],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 5,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: alert",
+			"errorContext": null,
+			"errorRange": [3, 7],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 6,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: metadata",
+			"errorContext": null,
+			"errorRange": [3, 10],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 7,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: codeBlock",
+			"errorContext": null,
+			"errorRange": [3, 11],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 8,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: link",
+			"errorContext": null,
+			"errorRange": [3, 6],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 9,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: opSingleSelector",
+			"errorContext": null,
+			"errorRange": [3, 18],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 10,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: code",
+			"errorContext": null,
+			"errorRange": [3, 6],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 11,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: imageCustom",
+			"errorContext": null,
+			"errorRange": [3, 13],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 12,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: quote",
+			"errorContext": null,
+			"errorRange": [3, 7],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 13,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: row",
+			"errorContext": null,
+			"errorRange": [3, 5],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 14,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: column",
+			"errorContext": null,
+			"errorRange": [3, 8],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 15,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: list",
+			"errorContext": null,
+			"errorRange": [3, 6],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 16,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: imageCustom",
+			"errorContext": null,
+			"errorRange": [1, 13],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 17,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: checklist",
+			"errorContext": null,
+			"errorRange": [3, 11],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 315,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: folderPath",
+			"errorContext": null,
+			"errorRange": [33, 12],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 316,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: long",
+			"errorContext": null,
+			"errorRange": [4, 23],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 668,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: checklist",
+			"errorContext": null,
+			"errorRange": [3, 11],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 696,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: sub",
+			"errorContext": null,
+			"errorRange": [7, 5],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 704,
+			"ruleName": "MD033",
+			"ruleDescription": "Inline HTML",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md033",
+			"errorDetail": "Element: sup",
+			"errorContext": null,
+			"errorRange": [9, 5],
+			"ruleAlias": "no-inline-html"
+		},
+		{
+			"lineNumber": 36,
+			"ruleName": "MD035",
+			"ruleDescription": "Horizontal rule style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md035",
+			"errorDetail": "Expected: ---; Actual: ---------------",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "hr-style"
+		},
+		{
+			"lineNumber": 39,
+			"ruleName": "MD035",
+			"ruleDescription": "Horizontal rule style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md035",
+			"errorDetail": "Expected: ---; Actual: ------",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "hr-style"
+		},
+		{
+			"lineNumber": 429,
+			"ruleName": "MD040",
+			"ruleDescription": "Fenced code blocks should have a language specified",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md040",
+			"errorDetail": null,
+			"errorContext": "   ```",
+			"errorRange": null,
+			"ruleAlias": "fenced-code-language"
+		},
+		{
+			"lineNumber": 1,
+			"ruleName": "MD041",
+			"ruleDescription": "First line in a file should be a top-level heading",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md041",
+			"errorDetail": null,
+			"errorContext": "((?<playername>[A-Za-z0-9\\u002...",
+			"errorRange": null,
+			"ruleAlias": "first-line-heading"
+		},
+		{
+			"lineNumber": 207,
+			"ruleName": "MD046",
+			"ruleDescription": "Code block style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md046",
+			"errorDetail": "Expected: fenced; Actual: indented",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "code-block-style"
+		},
+		{
+			"lineNumber": 214,
+			"ruleName": "MD046",
+			"ruleDescription": "Code block style",
+			"ruleInformation": "https://github.com/DavidAnson/markdownlint/blob/v0.25.1/doc/Rules.md#md046",
+			"errorDetail": "Expected: fenced; Actual: indented",
+			"errorContext": null,
+			"errorRange": null,
+			"ruleAlias": "code-block-style"
+		}
+	]
+}

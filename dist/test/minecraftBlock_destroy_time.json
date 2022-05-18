@@ -1,0 +1,40 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Block Documentation - minecraft:destroy_time",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Block Documentation - minecraft:destroy_time"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:destroy_time` is a `decimal` component that sets the destroy time property for the block. Time is measured in seconds with base equipment."
+	},
+	{ "type": "alert", "data": "NOTE" },
+	{
+		"type": "quote",
+		"data": "Greater numbers result in greater mining times."
+	},
+	{ "type": "heading", "data": "Default Parameter" },
+	{
+		"type": "table",
+		"data": [{ "Default Value": "0.0", "Type": "Decimal" }]
+	},
+	{ "type": "heading", "data": "Extra Parameters" },
+	{
+		"type": "other",
+		"data": "`minecraft:destroy_time` does not use any extra parameters."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": { "minecraft:destroy_time": 2.5 },
+		"language": "json"
+	}
+]

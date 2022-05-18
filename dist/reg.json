@@ -1,0 +1,227 @@
+[
+	{
+		"type": "yamlHeader",
+		"value": {
+			"title": "Markdown reference for docs.microsoft.com",
+			"description": "Learn the Markdown features and syntax used in the Microsoft Docs platform.",
+			"author": "meganbradley",
+			"ms.author": "mbradley",
+			"ms.date": "11/09/2021",
+			"ms.topic": "contributor-guide",
+			"ms.prod": "non-product-specific",
+			"ms.custom": "external-contributor-guide"
+		}
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"(?<Image>(\\!)(\\[(?:.*)?\\])(\\(.*(\\.(Jpg": "(?<alert>(>\\s\\[!(NOTE",
+				"png": "TIP",
+				"gif": "CAUTION",
+				"tiff": "WARNING",
+				"bmp))(?:(\\S\\\"": "IMPORTANT)\\])\\s((^(\\>{1})(.*)(?:$)?)+))"
+			}
+		]
+	},
+	{ "type": "table", "data": [] },
+	{ "type": "table", "data": [] },
+	{
+		"type": "quote",
+		"value": "Information the user should notice even if skimming."
+	},
+	{
+		"type": "quote",
+		"value": "Optional information to help a user be more successful."
+	},
+	{
+		"type": "quote",
+		"value": "Essential information required for user success."
+	},
+	{
+		"type": "quote",
+		"value": "Negative potential consequences of an action."
+	},
+	{
+		"type": "quote",
+		"value": "Dangerous certain consequences of an action."
+	},
+	{
+		"type": "list",
+		"data": [
+			"Left (opening) quotation mark: `&#8220;`",
+			"Right (closing) quotation mark: `&#8221;`",
+			"Right (closing) single quotation mark or apostrophe: `&#8217;`",
+			"Left (opening) single quotation mark (rarely used): `&#8216;`"
+		]
+	},
+	{
+		"type": "quote",
+		"value": "To avoid \"smart\" characters in your Markdown files, rely on the Docs Authoring Pack's smart quote replacement feature. For more information, see [smart quote replacement](docs-authoring/smart-quote-replacement.md)."
+	},
+	{
+		"type": "quote",
+		"value": "This is a blockquote. It is usually rendered indented and with a different background color."
+	},
+	{
+		"type": "quote",
+		"value": "This is a blockquote. It is usually rendered indented and with a different background color."
+	},
+	{
+		"type": "quote",
+		"value": "Do not put private or sensitive information in HTML comments. Docs carries HTML comments through to the published HTML that goes public. While HTML comments are invisible to the reader's eye, they are exposed in the HTML underneath."
+	},
+	{
+		"type": "list",
+		"data": [
+			"There must be a space between the last `#` and heading text.",
+			"Each Markdown file must have one and only one H1 heading.",
+			"The H1 heading must be the first content in the file after the YML metadata block.",
+			"H2 headings automatically appear in the right-hand navigating menu of the published file. Lower-level headings don't appear, so use H2s strategically to help readers navigate your content.",
+			"HTML headings, such as `<h1>`, aren't recommended, and in some cases will cause build warnings.",
+			"You can link to individual headings in a file via [bookmark links](how-to-write-links.md#explicit-anchor-links).",
+			".jpg",
+			".png",
+			"Inline: Reuse a common text snippet inline with within a sentence.",
+			"Block: Reuse an entire Markdown file as a block, nested within a section of an article.",
+			"Use block includes for significant amounts of content--a paragraph or two, a shared procedure, or a shared section. Don't use them for anything smaller than a sentence.",
+			"Includes won't be rendered in the GitHub-rendered view of your article because they rely on Docs extensions. They'll be rendered only after publication.",
+			"Write all the text in an include file in complete sentences or phrases that don't depend on preceding or following text in the article that references the include. Ignoring this guidance creates an untranslatable string in the article.",
+			"Don't embed include files within other include files.",
+			"`/Includes` folders are excluded from build. Therefore, images stored in `/includes` folders and referenced in included files won't be displayed in published content. Store images in a `/media` folder outside the `/includes` folder.",
+			"As with regular articles, don't share media between include files. Use a separate file with a unique name for each include and article. Store the media file in the media folder that's associated with the include.",
+			"Don't use an include as the only content of an article.  Includes are meant to be supplemental to the content in the rest of the article.",
+			"This is a numbered list example (one space after the period before the letter T).",
+			"This is a bulleted list example (one space after the bullet before the letter T)."
+		]
+	},
+	{ "type": "quote", "value": "This tip is indented two spaces" },
+	{
+		"type": "list",
+		"data": [
+			"This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T)."
+		]
+	},
+	{ "type": "quote", "value": "This quote block is indented four spaces." },
+	{
+		"type": "list",
+		"data": [
+			"This is a numbered list example (one space after the period before the letter T).",
+			"This is a bulleted list example (one space after the bullet before the letter T)."
+		]
+	},
+	{ "type": "quote", "value": "This tip is indented two spaces." },
+	{
+		"type": "list",
+		"data": [
+			"This is a second-level bullet (indented two spaces, with one space after the bullet before the letter T)."
+		]
+	},
+	{ "type": "quote", "value": "This quote block is indented four spaces." },
+	{
+		"type": "list",
+		"data": [
+			"This is",
+			"a parent numbered list",
+			"and this is",
+			"a nested numbered list",
+			"(fin)",
+			"This is",
+			"a parent bulleted list",
+			"and this is",
+			"a nested bulleted list",
+			"All done!"
+		]
+	},
+	{ "type": "quote", "value": "Use `\\` to escape special characters:" },
+	{
+		"type": "quote",
+		"value": "The no-loc metadata is not supported as global metadata in *docfx.json* file. The localization pipeline doesn't read the *docfx.json* file, so the no-loc metadata must be added into each individual source file."
+	},
+	{ "type": "table", "data": [] },
+	{
+		"type": "selector",
+		"data": "\n> - [(iOS | .NET)](how-to-write-links.md)\r\n> - [(iOS | JavaScript)](how-to-write-links.md)\r\n> - [(Windows universal C# | .NET)](how-to-write-links.md)\r\n> - [(Windows universal C# | Javascript)](how-to-write-links.md)\r\n> - [(Windows Phone | .NET)](how-to-write-links.md)\r\n> - [(Windows Phone | Javascript)](how-to-write-links.md)\r\n> - [(Android | .NET)](how-to-write-links.md)\r\n> - [(Android | Javascript)](how-to-write-links.md)\r\n> - [(Xamarin iOS | Javascript)](how-to-write-links.md)\r\n> - [(Xamarin Android | Javascript)](how-to-write-links.md)\r\n"
+	},
+	{
+		"type": "table",
+		"data": [
+			{ "thisIs": "table", "aSimple": "data", "tableHeader": "here" },
+			{
+				"thisIs": "it doesn't",
+				"aSimple": "actually",
+				"tableHeader": "have to line up nicely!"
+			}
+		]
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"fun": "left-aligned column",
+				"with": "right-aligned column",
+				"tables": "centered column"
+			},
+			{ "fun": "$100", "with": "$100", "tables": "$100" },
+			{ "fun": "$10", "with": "$10", "tables": "$10" },
+			{ "fun": "$1", "with": "$1", "tables": "$1" }
+		]
+	},
+	{
+		"type": "quote",
+		"value": "The Docs Authoring Extension for VS Code makes it easy to add basic Markdown tables!"
+	},
+	{
+		"type": "quote",
+		"value": "You can also use an [online table generator](http://www.tablesgenerator.com/markdown_tables)."
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"name": "Quiet",
+				"syntax": "/quiet",
+				"mandatoryForSilentInstallation?": "Yes",
+				"description": "Runs the installer, displaying no UI and no prompts."
+			},
+			{
+				"name": "NoRestart",
+				"syntax": "/norestart",
+				"mandatoryForSilentInstallation?": "No",
+				"description": "Suppresses any attempts to restart. By default, the UI will prompt before restart."
+			},
+			{
+				"name": "Help",
+				"syntax": "/help",
+				"mandatoryForSilentInstallation?": "No",
+				"description": "Provides help and quick reference. Displays the correct use of the setup command, including a list of all options and behaviors."
+			}
+		]
+	},
+	{
+		"type": "list",
+		"data": [
+			"Interlacing HTML code with Markdown makes topics more complicated and discourages community contributions.",
+			"A table that you make look good for a specific screen size may end up looking unreadable at different screen sizes as it preempts responsive rendering."
+		]
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"": "**First column A**",
+				"header1": "Cell 1A",
+				"header2": "Cell 2A"
+			},
+			{
+				"": "**First column B**",
+				"header1": "Cell 1B",
+				"header2": "Cell 2B"
+			}
+		]
+	},
+	{
+		"type": "quote",
+		"value": "The Docs Authoring Pack for VS Code includes a function to convert a regular Markdown table into a data matrix table. Just select the table, right-click, and select **Convert to data matrix table**."
+	}
+]

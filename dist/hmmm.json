@@ -1,0 +1,59 @@
+[
+	{
+		"type": "yamlHeader",
+		"value": {
+			"author": "v-jeffreykim",
+			"ms.author": "v-jeffreykim",
+			"title": "Entity Documentation - minecraft:water_movement",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"value": "Entity Documentation - minecraft:water_movement"
+	},
+	{
+		"type": "other",
+		"value": "`minecraft:water_movement` defines the speed with which an entity can move through water."
+	},
+	{ "type": "heading", "value": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"name": "drag_factor",
+				"defaultValue": "0.8",
+				"type": "Decimal",
+				"description": "Drag factor to determine movement speed when in water."
+			}
+		]
+	},
+	{ "type": "heading", "value": "Example" },
+	{
+		"type": "code",
+		"data": { "minecraft:water_movement": { "drag_factor": 0.8 } },
+		"range": [],
+		"language": "json"
+	},
+	{ "type": "heading", "value": "Vanilla entities examples" },
+	{ "type": "heading", "value": "panda" },
+	{
+		"type": "code",
+		"data": { "minecraft:water_movement": { "drag_factor": 0.98 } },
+		"range": [389, 391],
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/entities/panda.json"
+	},
+	{
+		"type": "heading",
+		"value": "Vanilla entities using `minecraft:water_movement`"
+	},
+	{
+		"type": "list",
+		"data": [
+			"[panda](../../../../Source/VanillaBehaviorPack_Snippets/entities/panda.md)",
+			"[polar_bear](../../../../Source/VanillaBehaviorPack_Snippets/entities/polar_bear.md)",
+			"[turtle](../../../../Source/VanillaBehaviorPack_Snippets/entities/turtle.md)"
+		]
+	}
+]

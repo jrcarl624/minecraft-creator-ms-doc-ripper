@@ -1,0 +1,103 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Entity Documentation - minecraft:behavior.vex_copy_owner_target",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Entity Documentation - minecraft:behavior.vex_copy_owner_target"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:behavior.vex_copy_owner_target` allows an entity of the`vex` family to target the same entity as it's owner."
+	},
+	{ "type": "alert", "data": "CAUTION" },
+	{
+		"type": "quote",
+		"data": "`minecraft:behavior.vex_copy_owner_target` is no longer used for the `vex` entity."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "[entity_types](../Definitions/NestedTables/entity_types.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": "List of entities this mob can copy the owner from"
+			}
+		]
+	},
+	{ "type": "heading", "data": "entity_types" },
+	{
+		"type": "other",
+		"data": "`entity_types` is a JSON Object variable that can use the following parameters:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "filters",
+				"Default Value": "",
+				"Type": "Minecraft Filter",
+				"Description": "Conditions that make this entry in the list valid."
+			},
+			{
+				"Name": "max_dist",
+				"Default Value": "16",
+				"Type": "Decimal",
+				"Description": "Maximum distance this mob can be away to be a valid choice."
+			},
+			{
+				"Name": "must_see",
+				"Default Value": "false",
+				"Type": "Boolean",
+				"Description": "If true, the mob has to be visible to be a valid choice."
+			},
+			{
+				"Name": "must_see_forget_duration",
+				"Default Value": "3.0",
+				"Type": "Boolean",
+				"Description": "Determines the amount of time in seconds that this mob will look for a target before forgetting about it and looking for a new one when the target isn't visible any more."
+			},
+			{
+				"Name": "sprint_speed_multiplier",
+				"Default Value": "1.0",
+				"Type": "Decimal",
+				"Description": "Multiplier for the running speed. A value of 1.0 means the speed is unchanged."
+			},
+			{
+				"Name": "walk_speed_multiplier",
+				"Default Value": "1.0",
+				"Type": "Decimal",
+				"Description": "Multiplier for the walking speed. A value of 1.0 means the speed is unchanged."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:behavior.vex_copy_owner_target": { "priority": 2 }
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{
+		"type": "other",
+		"data": "No entities currently use `minecraft:behavior.vex_copy_owner_target`"
+	},
+	{
+		"type": "heading",
+		"data": "Vanilla entities using `minecraft:behavior.vex_copy_owner_target`"
+	},
+	{
+		"type": "other",
+		"data": "No entities currently use `minecraft:behavior.vex_copy_owner_target`"
+	}
+]

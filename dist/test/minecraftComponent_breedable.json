@@ -1,0 +1,336 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Entity Documentation - minecraft:breedable",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Entity Documentation - minecraft:breedable" },
+	{
+		"type": "other",
+		"data": "`minecraft:breedable` allows an entity to establish a way to get into the `love` state used for breeding."
+	},
+	{ "type": "other", "data": ">[!IMPORTANT]" },
+	{
+		"type": "quote",
+		"data": "`minecraft:breedable`requires the behavior [`minecraft:behavior.breed`](../EntityGoals/minecraftBehavior_breed.md) in order to allow entities to breed."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "allow_sitting",
+				"Default Value": "false",
+				"Type": "Boolean",
+				"Description": "If true, entities can breed while sitting"
+			},
+			{
+				"Name": "blend_attributes",
+				"Default Value": "true",
+				"Type": "Boolean",
+				"Description": "If true, the entities will blend their attributes in the offspring after they breed. For example, horses blend their health, movement, and jump_strength in their offspring."
+			},
+			{
+				"Name": "breed_cooldown",
+				"Default Value": "60",
+				"Type": "Decimal",
+				"Description": " Time in seconds before the Entity can breed again."
+			},
+			{
+				"Name": "breed_items",
+				"Default Value": "*not set*",
+				"Type": "List",
+				"Description": "The list of items that can be used to get the entity into the 'love' state"
+			},
+			{
+				"Name": "[breeds_with](#breeds_with)",
+				"Default Value": "*not set*",
+				"Type": "List",
+				"Description": "The list of entity definitions that this entity can breed with."
+			},
+			{
+				"Name": "causes_pregnancy",
+				"Default Value": "false",
+				"Type": "Boolean",
+				"Description": "If true, the entity will become pregnant instead of spawning a baby."
+			},
+			{
+				"Name": "[deny_parents_variant](#deny_parents_variant)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Determines how likely the baby of parents with the same variant will deny that variant and take a random variant within the given range instead."
+			},
+			{
+				"Name": "[environment_requirements](#environment_requirements)",
+				"Default Value": "*not set*",
+				"Type": "List",
+				"Description": "The list of nearby block requirements to get the entity into the 'love' state."
+			},
+			{
+				"Name": "extra_baby_chance",
+				"Default Value": "0",
+				"Type": "Decimal",
+				"Description": "Chance that up to 16 babies will spawn between 0.0 and 1.0, where 1.0 is 100%."
+			},
+			{
+				"Name": "inherit_tamed",
+				"Default Value": "true",
+				"Type": "Boolean",
+				"Description": " If true, the babies will be automatically tamed if its parents are"
+			},
+			{
+				"Name": "[love_filters](../FilterList.md)",
+				"Default Value": "*not set*",
+				"Type": "Minecraft Filter",
+				"Description": " The filters to run when attempting to fall in love."
+			},
+			{
+				"Name": "[mutation_factor](#mutation_factor)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": " Determines how likely the babies are to NOT inherit one of their parent's variances. Values are between 0.0 and 1.0, with a higher number meaning more likely to mutate."
+			},
+			{
+				"Name": "require_full_health",
+				"Default Value": "false",
+				"Type": "Boolean",
+				"Description": " If true, the entity needs to be at full health before it can breed."
+			},
+			{
+				"Name": "require_tame",
+				"Default Value": "true",
+				"Type": "Boolean",
+				"Description": "If true, the entities need to be tamed first before they can breed."
+			}
+		]
+	},
+	{ "type": "heading", "data": "breeds_with" },
+	{
+		"type": "other",
+		"data": "`breeds_with` is a list defined by three parameters. Each item has the following properties:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "baby_type",
+				"Default Value": "*not set*",
+				"Type": "String",
+				"Description": "The entity definition of this entity's babies."
+			},
+			{
+				"Name": "breed_event",
+				"Default Value": "*not set*",
+				"Type": "String",
+				"Description": "Event to run when this entity breeds."
+			},
+			{
+				"Name": "mate_type",
+				"Default Value": "*not set*",
+				"Type": "String",
+				"Description": "The entity definition of this entity's mate."
+			}
+		]
+	},
+	{ "type": "heading", "data": "deny_parents_variant" },
+	{
+		"type": "other",
+		"data": "`deny_parents_variant` is a JSON Object defined by three parameters. Each item has the following properties:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "chance",
+				"Default Value": "0",
+				"Type": "Decimal",
+				"Description": "The percentage chance of denying the parents' variant."
+			},
+			{
+				"Name": "max_variant",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "The inclusive maximum of the variant range."
+			},
+			{
+				"Name": "min_variant",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "The inclusive minimum of the variant range."
+			}
+		]
+	},
+	{ "type": "heading", "data": "environment_requirements" },
+	{
+		"type": "other",
+		"data": "`environment_requirements` is a list defined by three parameters. Each item has the following properties:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "blocks",
+				"Default Value": "*not set*",
+				"Type": "List",
+				"Description": "The block types required nearby for the entity to breed."
+			},
+			{
+				"Name": "count",
+				"Default Value": "*not set*",
+				"Type": "Integer",
+				"Description": "The number of the required block types nearby for the entity to breed."
+			},
+			{
+				"Name": "radius",
+				"Default Value": "*not set*",
+				"Type": "Decimal",
+				"Description": "How many blocks radius from the mob's center to search in for the required blocks. Bounded between 0 and 16."
+			}
+		]
+	},
+	{ "type": "heading", "data": "mutation_factor" },
+	{
+		"type": "other",
+		"data": "`mutation_factor` is a list defined by three parameters. Each item has the following properties:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "color",
+				"Default Value": "0",
+				"Type": "Decimal",
+				"Description": "The percentage chance of a mutation on the entity's color."
+			},
+			{
+				"Name": "extra_variant",
+				"Default Value": "0",
+				"Type": "Decimal",
+				"Description": "The percentage chance of a mutation on the entity's extra variant type."
+			},
+			{
+				"Name": "variant",
+				"Default Value": "0",
+				"Type": "Decimal",
+				"Description": "The percentage chance of a mutation on the entity's variant type."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:breedable": {
+				"allow_sitting": false,
+				"blend_attributes": false,
+				"breed_cooldown": false,
+				"breed_items": ["carrot", "bamboo"],
+				"breeds_with": {
+					"mate_type": "minecraft:panda",
+					"baby_type": "minecraft:panda",
+					"breed_event": {
+						"event": "minecraft:entity_born",
+						"target": "baby"
+					}
+				},
+				"deny_parents_variant": {
+					"chance": 0.00098,
+					"min_variant": 0,
+					"max_variant": 1
+				},
+				"environment_requirements": {
+					"blocks": "grass",
+					"count": 10,
+					"radius": 10
+				},
+				"causes_pregnancy": false,
+				"extra_baby_chance": 0,
+				"inherit_tamed": true,
+				"love_filters": {
+					"test": "has_damage",
+					"subject": "self",
+					"operator": "=",
+					"value": false
+				},
+				"mutation_factor": {
+					"color": 0.25,
+					"extra_variant": 0.35,
+					"variant": 0.5
+				},
+				"require_full_health": false,
+				"require_tame": true
+			}
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "horse" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:breedable": {
+				"require_tame": true,
+				"inherit_tamed": false,
+				"breeds_with": [
+					{
+						"mate_type": "minecraft:horse",
+						"baby_type": "minecraft:horse",
+						"breed_event": {
+							"event": "minecraft:entity_born",
+							"target": "baby"
+						}
+					},
+					{
+						"mate_type": "minecraft:donkey",
+						"baby_type": "minecraft:mule",
+						"breed_event": {
+							"event": "minecraft:entity_born",
+							"target": "baby"
+						}
+					}
+				],
+				"breed_items": [
+					"golden_carrot",
+					"golden_apple",
+					"appleEnchanted"
+				]
+			}
+		},
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/entities/horse.json",
+		"range": [173, 199]
+	},
+	{
+		"type": "heading",
+		"data": "Vanilla entities using `minecraft:breedable`"
+	},
+	{
+		"type": "list",
+		"data": [
+			"[axolotl](../../../../Source/VanillaBehaviorPack_Snippets/entities/axolotl.md)",
+			"[bee](../../../../Source/VanillaBehaviorPack_Snippets/entities/bee.md)",
+			"[cat](../../../../Source/VanillaBehaviorPack_Snippets/entities/cat.md)",
+			"[chicken](../../../../Source/VanillaBehaviorPack_Snippets/entities/chicken.md)",
+			"[cow](../../../../Source/VanillaBehaviorPack_Snippets/entities/cow.md)",
+			"[donkey](../../../../Source/VanillaBehaviorPack_Snippets/entities/donkey.md)",
+			"[fox](../../../../Source/VanillaBehaviorPack_Snippets/entities/fox.md)",
+			"[goat](../../../../Source/VanillaBehaviorPack_Snippets/entities/goat.md)",
+			"[hoglin](../../../../Source/VanillaBehaviorPack_Snippets/entities/hoglin.md)",
+			"[horse](../../../../Source/VanillaBehaviorPack_Snippets/entities/horse.md)",
+			"[llama](../../../../Source/VanillaBehaviorPack_Snippets/entities/llama.md)",
+			"[mooshroom](../../../../Source/VanillaBehaviorPack_Snippets/entities/mooshroom.md)",
+			"[ocelot](../../../../Source/VanillaBehaviorPack_Snippets/entities/ocelot.md)",
+			"[panda](../../../../Source/VanillaBehaviorPack_Snippets/entities/panda.md)",
+			"[pig](../../../../Source/VanillaBehaviorPack_Snippets/entities/pig.md))",
+			"[rabbit](../../../../Source/VanillaBehaviorPack_Snippets/entities/rabbit.md)",
+			"[sheep](../../../../Source/VanillaBehaviorPack_Snippets/entities/sheep.md)",
+			"[strider](../../../../Source/VanillaBehaviorPack_Snippets/entities/strider.md)",
+			"[turtle](../../../../Source/VanillaBehaviorPack_Snippets/entities/turtle.md)",
+			"[wolf](../../../../Source/VanillaBehaviorPack_Snippets/entities/wolf.md)"
+		]
+	}
+]

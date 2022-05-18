@@ -1,0 +1,20 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "JDHeaden",
+			"ms.author": "v-jillheaden",
+			"title": "Schema Documentation - persona_actor_animation:1.8.0",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Schema Documentation - persona_actor_animation:1.8.0"
+	},
+	{
+		"type": "other",
+		"data": "This schema corresponds to the *.animation.json files in the \"animations\" folder of the resource pack."
+	},
+	{ "type": "code", "language": "json" }
+]

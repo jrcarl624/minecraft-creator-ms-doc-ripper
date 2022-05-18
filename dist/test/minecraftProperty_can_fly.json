@@ -1,0 +1,38 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Entity Documentation - minecraft:can_fly",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Entity Documentation -  minecraft:can_fly" },
+	{
+		"type": "other",
+		"data": "`minecraft:can_fly` allows an entity the ability to fly, the pathfinder won't be restricted to paths where a solid block is required underneath it."
+	},
+	{ "type": "heading", "data": "Example" },
+	{ "type": "code", "data": { "minecraft:can_fly": {} }, "language": "json" },
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "ghast" },
+	{
+		"type": "code",
+		"data": { "minecraft:can_fly": {} },
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/entities/ghast.json",
+		"range": [43, 44]
+	},
+	{ "type": "heading", "data": "Vanilla entities using `minecraft:can_fly`" },
+	{
+		"type": "list",
+		"data": [
+			"[bat](../../../../Source/VanillaBehaviorPack_Snippets/entities/bat.md)",
+			"[bee](../../../../Source/VanillaBehaviorPack_Snippets/entities/bee.md)",
+			"[ghast](../../../../Source/VanillaBehaviorPack_Snippets/entities/ghast.md)",
+			"[parrot](../../../../Source/VanillaBehaviorPack_Snippets/entities/parrot.md)",
+			"[wither](../../../../Source/VanillaBehaviorPack_Snippets/entities/wither.md)"
+		]
+	}
+]

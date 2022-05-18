@@ -1,0 +1,49 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Block Documentation - minecraft:flammable",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Block Documentation - minecraft:flammable" },
+	{
+		"type": "other",
+		"data": "`minecraft:flammable` is a component controlled by a `JSON object` that contains the flammable properties for this block."
+	},
+	{ "type": "heading", "data": "Default Parameter" },
+	{
+		"type": "table",
+		"data": [{ "Default Value": "*not set*", "Type": "JSON Object" }]
+	},
+	{ "type": "heading", "data": "Extra Parameters" },
+	{
+		"type": "other",
+		"data": "`minecraft:flammable` can use the following parameters:"
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "burn_odds",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "How likely the block will be destroyed by flames when on fire. Value must be greater than or equal to 0."
+			},
+			{
+				"Name": "flame_odds",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "How likely the block will catch flame when next to a fire. Value must be greater than or equal to 0."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": { "minecraft:flammable": { "burn_odds": 0, "flame_odds": 0 } },
+		"language": "json"
+	}
+]

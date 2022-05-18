@@ -1,0 +1,141 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "docsbryce",
+			"ms.author": "v-bbortree",
+			"title": "Entity Documentation - minecraft:behavior.avoid_block",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Entity Documentation - minecraft:behavior.avoid_block"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:behavior.avoid_block` allows an entity to avoid certain blocks."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "avoid_block_sound",
+				"Default Value": "",
+				"Type": "String",
+				"Description": "The sound event to play when the mob is avoiding a block."
+			},
+			{
+				"Name": "on_escape",
+				"Default Value": "",
+				"Type": "Trigger",
+				"Description": "Escape trigger."
+			},
+			{
+				"Name": "search_height",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "Maximum distance to look for a block in y."
+			},
+			{
+				"Name": "search_range",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "Maximum distance to look for a block in xz."
+			},
+			{
+				"Name": "sound_interval",
+				"Default Value": "[3.0, 8.0]",
+				"Type": "Range [a, b]",
+				"Description": "The range of time in seconds to randomly wait before playing the sound again."
+			},
+			{
+				"Name": "sprint_speed_modifier",
+				"Default Value": "1.0",
+				"Type": "Decimal",
+				"Description": "Modifier for sprint speed. 1.0 means keep the regular speed, while higher numbers make the sprint speed faster."
+			},
+			{
+				"Name": "target_blocks",
+				"Default Value": "",
+				"Type": "List",
+				"Description": "List of block types this mob avoids."
+			},
+			{
+				"Name": "target_selection_method",
+				"Default Value": "nearest",
+				"Type": "String",
+				"Description": "Block search method."
+			},
+			{
+				"Name": "tick_interval",
+				"Default Value": "1",
+				"Type": "Integer",
+				"Description": "Should start tick interval."
+			},
+			{
+				"Name": "walk_speed_modifier",
+				"Default Value": "1.0",
+				"Type": "Decimal",
+				"Description": "Modifier for walking speed. 1.0 means keep the regular speed, while higher numbers make the walking speed faster."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:behavior.avoid_block": {
+				"priority": 1,
+				"tick_interval": 5,
+				"search_range": 8,
+				"search_height": 4,
+				"walk_speed_modifier": 1,
+				"sprint_speed_modifier": 1,
+				"avoid_block_sound": "retreat",
+				"sound_interval": { "range_min": 2, "range_max": 5 },
+				"target_selection_method": "nearest",
+				"target_blocks": [
+					"minecraft:warped_fungus",
+					"minecraft:portal",
+					"minecraft:respawn_anchor"
+				],
+				"on_escape": [{ "event": "escaped_event", "target": "self" }]
+			}
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "piglin" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:behavior.avoid_block": {
+				"priority": 9,
+				"tick_interval": 5,
+				"search_range": 8,
+				"search_height": 4,
+				"sprint_speed_modifier": 1.1,
+				"target_selection_method": "nearest",
+				"target_blocks": [
+					"minecraft:soul_fire",
+					"minecraft:soul_lantern",
+					"minecraft:soul_torch",
+					"minecraft:item.soul_campfire"
+				],
+				"avoid_block_sound": "retreat",
+				"sound_interval": { "range_min": 2, "range_max": 5 }
+			}
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities using `avoid_blocks`" },
+	{
+		"type": "list",
+		"data": [
+			"[hoglin](../../../../Source/VanillaBehaviorPack_Snippets/entities/hoglin.md)",
+			"[piglin](../../../../Source/VanillaBehaviorPack_Snippets/entities/piglin.md)"
+		]
+	}
+]

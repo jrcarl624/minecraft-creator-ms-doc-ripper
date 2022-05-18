@@ -1,0 +1,102 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "docsbryce",
+			"ms.author": "v-bbortree",
+			"title": "Entity Documentation - minecraft:behavior.admire_item",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Entity Documentation - minecraft:behavior.admire_item"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:behavior.admire_item` allows an entity to admire an object they are holding."
+	},
+	{ "type": "other", "data": ">[!IMPORTANT]" },
+	{
+		"type": "quote",
+		"data": "`minecraft:behavior.admire_item` requires the `minecraft:admire_item` component to be set within the entity definition as well."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "admire_item_sound",
+				"Default Value": "*not set*",
+				"Type": "String",
+				"Description": "The sound event to play when admiring the item"
+			},
+			{
+				"Name": "sound_interval",
+				"Default Value": "0",
+				"Type": "Range [\"range_min\", \"range_max\"]",
+				"Description": "The range of time in seconds to randomly wait before playing the sound again."
+			},
+			{
+				"Name": "on_admire_item_start",
+				"Default Value": "*not set*",
+				"Type": "[\"event\", \"target\"]",
+				"Description": "What happens when the entity starts admiring an item"
+			},
+			{
+				"Name": "on_admire_item_stop",
+				"Default Value": "*not set*",
+				"Type": "[\"event\", \"target\"]",
+				"Description": "What happens when the entity stops admiring an item"
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:behavior.admire_item": {
+				"priority": 4,
+				"admire_item_sound": "admire",
+				"sound_interval": { "range_min": 0, "range_max": 5 },
+				"on_admire_item_start": {
+					"event": "admire_item_started_event",
+					"target": "self"
+				},
+				"on_admire_item_stop": {
+					"event": "admire_item_stopped_event",
+					"target": "self"
+				}
+			}
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "piglin" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:behavior.admire_item": {
+				"priority": 2,
+				"admire_item_sound": "admire",
+				"sound_interval": { "range_min": 2, "range_max": 5 },
+				"on_admire_item_start": {
+					"event": "admire_item_started_event",
+					"target": "self"
+				},
+				"on_admire_item_stop": {
+					"event": "admire_item_stopped_event",
+					"target": "self"
+				}
+			}
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities using `admire_item`" },
+	{
+		"type": "list",
+		"data": [
+			"[piglin](../../../../Source/VanillaBehaviorPack_Snippets/entities/piglin.md)"
+		]
+	}
+]

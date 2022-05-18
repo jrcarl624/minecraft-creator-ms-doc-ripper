@@ -1,0 +1,61 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "docsbryce",
+			"ms.author": "v-bbortree",
+			"title": "Entity Documentation - Trigger List",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Entity Documentation - Trigger list" },
+	{
+		"type": "other",
+		"data": "Below is a list of all the available Triggers within Minecraft:Bedrock Edition for use with Entity JSON files."
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Trigger": "[minecraft:on_death](EntityTriggers/minecraftTrigger_on_death.md)",
+				"Description": "`minecraft:on_death` adds a trigger to call on this entity's death."
+			},
+			{
+				"Trigger": "[minecraft:on_friendly_anger](EntityTriggers/minecraftTrigger_on_friendly_anger.md)",
+				"Description": "`minecraft:on_friendly_anger` adds a trigger to call on this entity's death."
+			},
+			{
+				"Trigger": "[minecraft:on_hurt_by_player](EntityTriggers/minecraftTrigger_on_hurt_by_player.md)",
+				"Description": "`minecraft:on_hurt_by_player` adds a trigger to call when this entity takes damage by a player."
+			},
+			{
+				"Trigger": "[minecraft:on_hurt](EntityTriggers/minecraftTrigger_on_hurt.md)",
+				"Description": "`minecraft:on_hurt` adds a trigger to call when this entity takes damage."
+			},
+			{
+				"Trigger": "[minecraft:on_ignite](EntityTriggers/minecraftTrigger_on_ignite.md)",
+				"Description": "`minecraft:on_ignite` adds a trigger to call when this entity is set on fire."
+			},
+			{
+				"Trigger": "[minecraft:on_start_landing](EntityTriggers/minecraftTrigger_on_start_landing.md)",
+				"Description": "`minecraft:on_start_landing` adds a trigger to call when this entity lands."
+			},
+			{
+				"Trigger": "[minecraft:on_start_takeoff](EntityTriggers/minecraftTrigger_on_start_takeoff.md)",
+				"Description": "`minecraft:on_start_takeoff` adds a trigger to call when this entity starts flying."
+			},
+			{
+				"Trigger": "[minecraft:on_target_acquired](EntityTriggers/minecraftTrigger_on_target_acquired.md)",
+				"Description": "`minecraft:on_target_acquired` adds a trigger to call when this entity finds a target."
+			},
+			{
+				"Trigger": "[minecraft:on_target_escape](EntityTriggers/minecraftTrigger_on_target_escape.md)",
+				"Description": "`minecraft:on_target_escape` adds a trigger to call when this entity loses the target it currently has."
+			},
+			{
+				"Trigger": "[minecraft:on_wake_with_owner](EntityTriggers/minecraftTrigger_on_wake_with_owner.md)",
+				"Description": "`minecraft:on_wake_with_owner` adds a trigger to call when this pet's owner awakes after sleeping with the pet."
+			}
+		]
+	}
+]

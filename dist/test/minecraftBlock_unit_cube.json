@@ -1,0 +1,43 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Block Documentation - minecraft:unit_cube",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Block Documentation - minecraft:unit_cube" },
+	{
+		"type": "other",
+		"data": "`minecraft:unit_cube` is a `JSON Object` component that specifies that a unite cube is to be used with tessellation."
+	},
+	{ "type": "other", "data": ">[!IMPORTANT]" },
+	{
+		"type": "quote",
+		"data": "`minecraft:unit_cube` requires the Holiday Creator Features experimental toggle to be set to `true` in order to function properly."
+	},
+	{ "type": "other", "data": ">" },
+	{
+		"type": "other",
+		"data": ">Holiday Creator Features contains experimental gameplay features. As with all experiments, you may see additions, removals, and changes in functionality in Minecraft versions without significant advanced warning."
+	},
+	{ "type": "other", "data": ">" },
+	{
+		"type": "other",
+		"data": ">To learn more about Experimental Features, please visit [Experimental Features in Minecraft: Bedrock Edition](../../../../../Documents/ExperimentalFeaturesToggle.md)"
+	},
+	{ "type": "heading", "data": "Default Parameter" },
+	{
+		"type": "table",
+		"data": [{ "Default Value": "*not set*", "Type": "JSON Object" }]
+	},
+	{ "type": "heading", "data": "Extra Parameters" },
+	{
+		"type": "other",
+		"data": "`minecraft:unit_cube` does not use any extra parameters."
+	},
+	{ "type": "heading", "data": "Example" },
+	{ "type": "code", "data": {}, "language": "json" }
+]

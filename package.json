@@ -1,0 +1,32 @@
+{
+  "name": "test_955",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mojang-minecraft": "^0.1.5",
+    "axios": "^0.27.0",
+    "decimal.js": "^10.3.1",
+    "for-each-property-deep": "^0.0.3",
+    "gray-matter": "^4.0.3",
+    "jsonc-parser": "^3.0.0",
+    "lave": "^1.1.10",
+    "markdown-it": "^12.3.2",
+    "markdown-json": "^1.6.1",
+    "markdownlint": "^0.25.1",
+    "perl-regex": "^1.0.4",
+    "prettier": "^2.6.2",
+    "re2": "^1.17.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "browserify": "^17.0.0",
+    "tsify": "^5.0.4",
+    "typescript": "^4.6.3"
+  }
+}

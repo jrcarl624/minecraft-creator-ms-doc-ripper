@@ -1,0 +1,12 @@
+{
+  "app": {
+    "name": "markdown-json",
+    "cwd": "./md/",
+    "src": "./",
+    "filePattern": "skin_id.md",
+    "ignore": "*(icon|input)*",
+    "dist": "output.json",
+    "version": "1.6.1"
+  },
+  "data": []
+}

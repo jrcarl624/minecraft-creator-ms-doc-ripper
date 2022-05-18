@@ -1,0 +1,662 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "docsbryce",
+			"ms.author": "v-bbortree",
+			"title": "Molang Documentation - Introduction to Molang",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Molang Documentation - Introduction to Molang"
+	},
+	{
+		"type": "other",
+		"data": "Molang is a simple expression-based language designed for fast, data-driven calculation of values at run-time, and with a direct connection to in-game values and systems.  Its focus is to enable low-level systems like animation to support flexible data-driven behavior for both internal and external creators, while staying highly performant."
+	},
+	{ "type": "heading", "data": "Versioned Changes" },
+	{
+		"type": "other",
+		"data": "Molang uses the `\"min_engine_version\"` from the `manifest.json` of the resource or behavior pack that contains each Molang expression to determine which version of the rules to apply. This allows for changes to how Molang works without breaking existing content."
+	},
+	{
+		"type": "other",
+		"data": "Molang Versioned Change versions apply to each expression separately, so it's possible to have different versions active if multiple packs are loaded."
+	},
+	{
+		"type": "other",
+		"data": "This is a list of the Versioned Changes that have been added, along with the corresponding game version."
+	},
+	{
+		"type": "other",
+		"data": "To know which Versioned Changes are in effect, look at the `\"min_engine_version\"` of the `manifest.json` of the resource or behavior pack that contains your Molang expression. Any Versioned Change with a version less than or equal to that version number will be in effect."
+	},
+	{ "type": "heading", "data": "Versioned Change Versions" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Pack min_engine_version": "1.17.0",
+				"Description": "Initial support for Versioned Changes added. (Not actually a Versioned Change)"
+			},
+			{
+				"Pack min_engine_version": "1.17.30",
+				"Description": "Fixed query.item_remaining_use_duration conversion from ticks to seconds (multiplied by 20 instead of dividing). Also fixed normalization logic in that query to go from 1 down to 0 instead of 0 up to 1."
+			},
+			{
+				"Pack min_engine_version": "1.17.40",
+				"Description": "Added some new error messages for invalid expressions which previously ran with probably unexpected results. For example \"'text' + 1\" will now cause a content error."
+			},
+			{
+				"Pack min_engine_version": "1.18.10",
+				"Description": "Fixed conditional (ternary) operator associativity. Previously nested conditional expressions like `A ? B : C ? D : E` would evaluate as `(A ? B : C) ? D : E`. Now they evaluate as `A ? B : (C ? D : E)`."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Lexical Structure" },
+	{
+		"type": "other",
+		"data": "The language structure is largely based on simple 'C' language family style syntax.  An expression can be made of either one simple value or math calculation, or can be made of several sub-expressions where more complicated code is required."
+	},
+	{
+		"type": "other",
+		"data": "In simple cases, the terminating `;` is omitted and the expression result is returned."
+	},
+	{
+		"type": "other",
+		"data": "In complex cases, multiple sub-expressions are each terminated with a semicolon `;`.  Complex expressions evaluate to `0.0` unless there is a `return` statement, in which case the evaluated value of the `return`'s sub-expression will be returned out of the current scope."
+	},
+	{ "type": "alert", "data": "NOTE" },
+	{
+		"type": "quote",
+		"data": "All things in Molang are **case-insensitive**, with the exception of strings, which maintain the case provided."
+	},
+	{ "type": "heading", "data": "Keywords" },
+	{
+		"type": "other",
+		"data": "All identifiers not in a scope listed below are reserved for future use."
+	},
+	{ "type": "alert", "data": "CAUTION" },
+	{
+		"type": "quote",
+		"data": "Some operators are under `Experimental Molang Features` at the moment in the list below. We are hoping people will experiment with them and give us feedback, so we can move them into general usage."
+	},
+	{
+		"type": "table",
+		"data": [
+			{ "Keyword": "`1.23`", "Description": "Numerical constant value" },
+			{
+				"Keyword": "`! && < <= >= > == !=`",
+				"Description": "Logical operators"
+			},
+			{ "Keyword": "`* / + -`", "Description": "Basic math operators" },
+			{
+				"Keyword": "`(` `)`",
+				"Description": "Parentheses for expression term evaluation control"
+			},
+			{
+				"Keyword": "`{` `}`",
+				"Description": "Braces for execution scope"
+			},
+			{
+				"Keyword": "`??`",
+				"Description": "Null coalescing operator, for handling missing variables or stale actor references"
+			},
+			{
+				"Keyword": "`geometry.texture_name`",
+				"Description": "A reference to a geometry named in the entity definition"
+			},
+			{
+				"Keyword": "`material.texture_name`",
+				"Description": "A reference to a material named in the entity definition"
+			},
+			{
+				"Keyword": "`texture.texture_name`",
+				"Description": "A reference to a texture named in the entity definition"
+			},
+			{
+				"Keyword": "`math.function_name`",
+				"Description": "Various math functions"
+			},
+			{
+				"Keyword": "`query.function_name`",
+				"Description": "Access to an entity's properties"
+			},
+			{
+				"Keyword": "`temp.variable_name`",
+				"Description": "Read/write temporary storage"
+			},
+			{
+				"Keyword": "`texture.texture_name`",
+				"Description": "A reference to a texture named in the entity definition"
+			},
+			{
+				"Keyword": "`variable.variable_name`",
+				"Description": "Read/write storage on an actor"
+			},
+			{
+				"Keyword": "`temp.variable_name`",
+				"Description": "Read/write temporary storage"
+			},
+			{
+				"Keyword": "`context.variable_name`",
+				"Description": "Read-only storage provided by the game in certain scenarios"
+			},
+			{
+				"Keyword": "`<test> ? <if true> : <if false>`",
+				"Description": "Ternary conditional operator. **NOTE: Nested ternary expressions without parentheses were incorrectly parsed before a Versioned Change was made to fix it (see 'Versioned Changes' below).**"
+			},
+			{
+				"Keyword": "`<test> ? <if true>`",
+				"Description": "Binary conditional operator"
+			},
+			{
+				"Keyword": "`this`",
+				"Description": "The current value that this expression will ultimately write to (context specific)"
+			},
+			{
+				"Keyword": "`return`",
+				"Description": "For complex expressions, this evaluates the following statement and stops execution of the expression, returns the value computed"
+			},
+			{
+				"Keyword": "`->`",
+				"Description": "Arrow operator, for accessing data from a different entity"
+			},
+			{
+				"Keyword": "`context.variable_name`",
+				"Description": "Read-only storage provided by the game in certain scenarios"
+			},
+			{
+				"Keyword": "`loop`",
+				"Description": "For repeating one or more commands 'n' times"
+			},
+			{
+				"Keyword": "`for_each`",
+				"Description": "For iterating over an array of entities"
+			},
+			{
+				"Keyword": "`break`",
+				"Description": "For early exiting a loop/for_each scope"
+			},
+			{
+				"Keyword": "`continue`",
+				"Description": "For skipping the rest of the set of statements of a loop/for_each iteration and moving to the next iteration"
+			},
+			{ "Keyword": "`[` `]`", "Description": "Brackets for array access" }
+		]
+	},
+	{ "type": "heading", "data": "Variables" },
+	{
+		"type": "other",
+		"data": "There are three variable lifetimes a variable may belong to: Temporary, Entity, and Context:"
+	},
+	{
+		"type": "list",
+		"data": [
+			"**Temporary variables** (eg: `temp.moo = 1;`) are read/write and valid for the scope they are defined in, as per C rules.  For performance reasons their lifetime is global to the current expression execution and may return a valid value outside of the outermost scope they are defined in for a expression.  Be careful in complex expressions.  We will be adding content errors for invalid accesses as soon as possible.",
+			"**Entity variables** (eg: `variable.moo = 1;`) are read/write and store their value on the entity for the lifetime of that entity.  Note that these are currently not saved, so quitting and reloading the world will re-initialize these.  In the same way, if the entity is despawned, any variables on the entity will be lost.",
+			"**Context variables** (eg: `context.moo`) are read-only and valid for the expression they are run on.  The game defines these, and details on what variables are in each will be available in the documentation of the area where that Molang expression exists (such as behaviors defining what context variables they expose)."
+		]
+	},
+	{ "type": "heading", "data": "Public Variables" },
+	{
+		"type": "other",
+		"data": "In general, variables of a mob are considered private to that mob and cannot be accessed by another.  To expose read-only access of a variable to other mobs, you need to set the 'public' setting on that variable in the owning entity's resource definition.  It is also recommended to default-initialize the variable."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"format_version": "1.10.0",
+			"minecraft:client_entity": {
+				"description": {
+					"scripts": {
+						"variables": { "variable.oink": "public" },
+						"initialize": ["variable.oink = 0;"]
+					}
+				}
+			}
+		},
+		"language": "JSON"
+	},
+	{ "type": "heading", "data": "Values" },
+	{
+		"type": "list",
+		"data": [
+			"All numerical values are floats.",
+			"Boolean values such as actor flags are converted and stored as a float value of either 0.0 or 1.0 for values of false or true respectively.",
+			"For boolean tests, a float value equivalent to 0.0 is false, and anything not equal to 0.0 is true.",
+			"For array indices, floats are C-style-cast to ints, and clamped at zero for negative values or wrapped by the array size for large values.",
+			"Errors (such as divide by zero, missing variables, null references, etc) generally return a value of 0.0."
+		]
+	},
+	{
+		"type": "other",
+		"data": "Molang supports the following value types as well:"
+	},
+	{
+		"type": "code",
+		"data": "Geometry\nTexture\nMaterial\nActor Reference\nActor Reference Array\nString\nStruct",
+		"language": ""
+	},
+	{ "type": "alert", "data": "TIP" },
+	{
+		"type": "quote",
+		"data": "See the [Structs](#structs) section below to learn more on how Molang handles them."
+	},
+	{ "type": "heading", "data": "Query Functions" },
+	{
+		"type": "other",
+		"data": "Query functions (eg: `query.is_baby` or `query.is_item_equipped('main_hand')`) allow expressions to read game data.  If a query function takes no arguments, do not use parentheses. Otherwise, use parentheses and separate arguments with commas. For a full list of query functions, click on the hyperlink to view [Query Functions](QueryFunctions.md)."
+	},
+	{ "type": "heading", "data": "Aliases" },
+	{
+		"type": "other",
+		"data": "To reduce typing burden and increase clarity when reading and writing Molang, the following keyword aliases can make life a bit easier."
+	},
+	{ "type": "alert", "data": "NOTE" },
+	{
+		"type": "quote",
+		"data": "Note that left and right sides function identically in the Alias Map."
+	},
+	{ "type": "heading", "data": "Alias Mapping" },
+	{
+		"type": "table",
+		"data": [
+			{ "Full Name": "`context.moo`", "Aliased Name": "`c.moo`" },
+			{ "Full Name": "`query.moo`", "Aliased Name": "`q.moo`" },
+			{ "Full Name": "`temp.moo`", "Aliased Name": "`t.moo`" },
+			{ "Full Name": "`variable.moo`", "Aliased Name": "`v.moo`" }
+		]
+	},
+	{ "type": "heading", "data": "Example of Alias" },
+	{
+		"type": "other",
+		"data": "The following example shows how using aliases will keep the code short while functioning the same way."
+	},
+	{
+		"type": "code",
+		"data": "math.cos(query.anim_time * 38) * variable.rotation_scale + variable.x * variable.x * query.life_time;",
+		"language": ""
+	},
+	{
+		"type": "code",
+		"data": "math.cos(q.anim_time * 38) * v.rotation_scale + v.x * v.x * q.life_time",
+		"language": ""
+	},
+	{
+		"type": "other",
+		"data": "Molang will also allow you to use either syntax and intermix as desired as shown in this last example below."
+	},
+	{
+		"type": "code",
+		"data": "math.cos(q.anim_time * 38) * variable.rotation_scale + v.x * variable.x * query.life_time",
+		"language": ""
+	},
+	{ "type": "heading", "data": "Structs" },
+	{
+		"type": "other",
+		"data": "One difference between Molang and the C style syntax is that structures of data are **implicitly** defined by usage.  Their purpose is to more efficiently pass data around, such as passing `v.location` rather than `v.x`, `v.y`, and `v.z`. An example of this is shown below:"
+	},
+	{
+		"type": "code",
+		"data": "v.location.x = 1;\nv.location.y = 2;\nv.location.z = 3;\nv.another_mobs_location = v.another_mob_set_elsewhere->v.location;",
+		"language": ""
+	},
+	{ "type": "heading", "data": "Examples" },
+	{
+		"type": "other",
+		"data": "For some more usage examples, each of the following expressions return `1.23`"
+	},
+	{
+		"type": "code",
+		"data": "v.cowcow.friend = v.pigpig; v.pigpig->v.test.a.b.c = 1.23; return v.cowcow.friend->v.test.a.b.c;",
+		"language": ""
+	},
+	{
+		"type": "code",
+		"data": "v.cowcow.friend = v.pigpig; v.pigpig->v.test.a.b.c = 1.23; v.moo = v.cowcow.friend->v.test; return v.moo.a.b.c;",
+		"language": ""
+	},
+	{
+		"type": "code",
+		"data": "v.cowcow.friend = v.pigpig; v.pigpig->v.test.a.b.c = 1.23; v.moo = v.cowcow.friend->v.test.a; return v.moo.b.c;",
+		"language": ""
+	},
+	{
+		"type": "code",
+		"data": "v.cowcow.friend = v.pigpig; v.pigpig->v.test.a.b.c = 1.23; v.moo = v.cowcow.friend->v.test.a.b; return v.moo.c;",
+		"language": ""
+	},
+	{
+		"type": "code",
+		"data": "v.cowcow.friend = v.pigpig; v.pigpig->v.test.a.b.c = 1.23; v.moo = v.cowcow.friend->v.test.a.b.c; return v.moo;",
+		"language": ""
+	},
+	{
+		"type": "other",
+		"data": "Note that structures can be arbitrarily deep in their nesting/recursiveness. With that being said, it is recommended that you **do not** copy full structures inside other structures to avoid exploding memory, and not making structures too deep as there is a slight performance cost for each layer."
+	},
+	{ "type": "heading", "data": "Strings" },
+	{
+		"type": "other",
+		"data": "Strings in Molang are surrounded by single quotes, shown here as `'minecraft:pig'` or `'hello world!'`. An empty string is defined as two consecutive single quotes shown here as `''`."
+	},
+	{
+		"type": "other",
+		"data": "String operations only support `==` and `!=` at this time."
+	},
+	{ "type": "alert", "data": "NOTE" },
+	{
+		"type": "quote",
+		"data": "Strings don't support the ' character as there is no support for escape characters at this time."
+	},
+	{ "type": "heading", "data": "Math Functions" },
+	{
+		"type": "other",
+		"data": "Listed below are the mathematical functions available for use in Molang."
+	},
+	{
+		"type": "table",
+		"data": [
+			{
+				"Function": "`math.abs(value)`",
+				"Description": "Absolute value of value"
+			},
+			{
+				"Function": "`math.acos(value)`",
+				"Description": "arccos of value"
+			},
+			{
+				"Function": "`math.asin(value)`",
+				"Description": "arcsin of value"
+			},
+			{
+				"Function": "`math.atan(value)`",
+				"Description": "arctan of value"
+			},
+			{
+				"Function": "`math.atan2(y, x)`",
+				"Description": "arctan of y/x.  NOTE: the order of arguments!"
+			},
+			{
+				"Function": "`math.ceil(value)`",
+				"Description": "Round value up to nearest integral number"
+			},
+			{
+				"Function": "`math.clamp(value, min, max)`",
+				"Description": "Clamp value to between min and max inclusive"
+			},
+			{
+				"Function": "`math.cos(value)`",
+				"Description": "Cosine (in degrees) of value"
+			},
+			{
+				"Function": "`math.die_roll(num, low, high)`",
+				"Description": "returns the sum of 'num' random numbers, each with a value from low to high. Note: the generated random numbers are not integers like normal dice.  For that, use `math.die_roll_integer`."
+			},
+			{
+				"Function": "`math.die_roll_integer(num, low, high)`",
+				"Description": "returns the sum of 'num' random integer numbers, each with a value from low to high.  Note: the generated random numbers are integers like normal dice."
+			},
+			{
+				"Function": "`math.exp(value)`",
+				"Description": "Calculates e to the value 'nth' power"
+			},
+			{
+				"Function": "`math.floor(value)`",
+				"Description": "Round value down to nearest integral number"
+			},
+			{
+				"Function": "`math.hermite_blend(value)`",
+				"Description": "Useful for simple smooth curve interpolation using one of the Hermite Basis functions: `3t^2 - 2t^3`.  Note that while any valid float is a valid input, this function works best in the range [0,1]."
+			},
+			{
+				"Function": "`math.lerp(start, end, 0_to_1)`",
+				"Description": "Lerp from start to end via 0_to_1"
+			},
+			{
+				"Function": "`math.lerprotate(start, end, 0_to_1)`",
+				"Description": "Lerp the shortest direction around a circle from start degrees to end degrees via 0_to_1"
+			},
+			{
+				"Function": "`math.ln(value)`",
+				"Description": "Natural logarithm of value"
+			},
+			{
+				"Function": "`math.max(A, B)`",
+				"Description": "Return highest value of A or B"
+			},
+			{
+				"Function": "`math.min(A, B)`",
+				"Description": "Return lowest value of A or B"
+			},
+			{
+				"Function": "`math.min_angle(value)`",
+				"Description": "Minimize angle magnitude (in degrees) into the range [-180, 180)"
+			},
+			{
+				"Function": "`math.mod(value, denominator)`",
+				"Description": "Return the remainder of value / denominator"
+			},
+			{
+				"Function": "`math.pi`",
+				"Description": "Returns the float representation of the constant pi."
+			},
+			{
+				"Function": "`math.pow(base, exponent)`",
+				"Description": "Elevates `base` to the `exponent`'th power"
+			},
+			{
+				"Function": "`math.random(low, high)`",
+				"Description": "Random value between low and high inclusive"
+			},
+			{
+				"Function": "`math.random_integer(low, high)`",
+				"Description": "Random integer value between low and high inclusive"
+			},
+			{
+				"Function": "`math.round(value)`",
+				"Description": "Round value to nearest integral number"
+			},
+			{
+				"Function": "`math.sin(value)`",
+				"Description": "Sine (in degrees) of value"
+			},
+			{
+				"Function": "`math.sqrt(value)`",
+				"Description": "Square root of value"
+			},
+			{
+				"Function": "`math.trunc(value)`",
+				"Description": "Round value towards zero"
+			}
+		]
+	},
+	{ "type": "heading", "data": "Arrow Operator `->`" },
+	{
+		"type": "other",
+		"data": "Some return values of query function, or values stored in temp/entity/context variables can be a reference to another entity.  The `->` operator allows an expression to access variables or run queries on that entity.  For example, the example below will find all pigs within four meters of the current entity(including itself if it's a pig), and increment a variable `v.x` on itself if the block immediately above each pig is flammable (such as an oak button)."
+	},
+	{ "type": "alert", "data": "CAUTION" },
+	{
+		"type": "quote",
+		"data": "In the case where the left-hand-side of the `->` operator has an error (value is null, the entity was killed previously, or some other issue), the expression will not evaluate the right-hand-side and will return 0."
+	},
+	{ "type": "other", "data": ">" },
+	{
+		"type": "quote",
+		"data": "This implementation style was a choice between performance and not requiring content creators to overly worry about checking for potentially bad values everywhere."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": "v.x = 0;\nfor_each(v.pig, query.get_nearby_entities(4, 'minecraft:pig'), {\n    v.x = v.x + v.pig->query.get_relative_block_state(0, 1, 0, 'flammable');\n});",
+		"language": ""
+	},
+	{ "type": "heading", "data": "Brace Scope Delimiters `{ }`" },
+	{
+		"type": "other",
+		"data": "One can group a series of statements into a single group by wrapping them in `{` and `}` symbols.  This is used primarily in loops and conditional statements:"
+	},
+	{
+		"type": "code",
+		"data": "(v.moo > 0) ? {\n    v.x = math.sin(q.life_time * 45);\n    v.x = v.x * v.x + 17.3;\n    t.sin_x = math.sin(v.x);\n    v.x = t.sin_x * t.sin_x + v.x * v.x;\n    v.x = math.sqrt(v.x) * v.x * math.pi;\n}",
+		"language": ""
+	},
+	{ "type": "heading", "data": "Conditionals" },
+	{
+		"type": "other",
+		"data": "The conditional '?' operator allows for two convenient ways to implement simple branching logic."
+	},
+	{
+		"type": "other",
+		"data": "The first way is to use '?' by itself to conditionally execute part of an expression, for example `A ? B`. The part after the '?' is only run if the part before it evaluates to a true boolean."
+	},
+	{
+		"type": "other",
+		"data": "The second way is to use '?' with a ':' as a 'conditional ternary', for example `A ? B : C`. If the part before the '?' is evaluated as true, the part before the ':' is returned. Otherwise the part after is returned."
+	},
+	{ "type": "other", "data": ">[!Note]" },
+	{
+		"type": "other",
+		"data": ">Nested ternary expressions without parentheses were incorrectly parsed before a Versioned Change was made to fix it (see 'Versioned Changes' below)."
+	},
+	{ "type": "heading", "data": "Conditional Examples" },
+	{
+		"type": "code",
+		"data": "v.should_reset_a ? { v.a = 0; }\nv.larger_value = (v.a > v.b) ? v.a : v.b;",
+		"language": ""
+	},
+	{ "type": "heading", "data": "Loop" },
+	{
+		"type": "other",
+		"data": "Sometimes you may want to execute an expression multiple times. Rather than copy-pasting it a bunch, you can use `loop(<count>, <expression>);`. We have placed some arbitrary restrictions on these for safety for now.The maximum loop counter is 1024."
+	},
+	{ "type": "alert", "data": "CAUTION" },
+	{
+		"type": "quote",
+		"data": "Also, note that while you can nest loops inside loops pretty much as deep as you want, be careful you don't make a loop so long it will hang your game."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "other",
+		"data": "The example below showcases how a Fibonacci Calculator can be written in Molang."
+	},
+	{
+		"type": "code",
+		"data": "v.x = 1;\nv.y = 1;\nloop(10, {\n t.x = v.x + v.y;\n v.x = v.y;\n v.y = t.x;\n});",
+		"language": ""
+	},
+	{ "type": "heading", "data": "for_each" },
+	{
+		"type": "other",
+		"data": "[`query.get_nearby_entities`](QueryFunctions.md#list-of-entity-queries) returns an array of entities.  In order to iterate through them, you can use the following new built-in function `for_each`.  It takes three parameters: `for_each(<variable>, <array>, <expression>);`  The variable can be any variable, either a `temp.` or `variable.`, although we would recommend using `temp.` to not pollute the entity's variable space.  The expression is any Molang expression you want to execute for each entry in the array)."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": "\"v.x = 0;\nfor_each(t.pig, query.get_nearby_entities(4, 'minecraft:pig'), {\n    v.x = v.x + 1;\n});\"",
+		"language": ""
+	},
+	{ "type": "heading", "data": "break" },
+	{
+		"type": "other",
+		"data": "This will exit out of a `loop` or `for_each` early."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": "v.x = 1;\nv.y = 1;\nloop(10, {t.x = v.x + v.y; v.x = v.y; v.y = t.x; (v.y > 20) ? break;});",
+		"language": ""
+	},
+	{
+		"type": "other",
+		"data": "This will immediately exit the inner-most active loop, as per C-style language rules.  If you have:"
+	},
+	{
+		"type": "code",
+		"data": "v.x = 0;\nloop(10, {loop(10, {v.x = v.x + 1; (v.x > 5) ? break;});});",
+		"language": ""
+	},
+	{
+		"type": "other",
+		"data": "The `break` statement will terminate the inner loop when `v.x > 5`, and continue processing the outer loop's expression.  Note that as v.x is not reset between the outer loops, the second time into the inner loop this will add one more to `v.x` and then exit the inner loop again, resulting in a final value of `v.x` of `6 + 1 + 1 + 1 + ... + 1` = `15`.)"
+	},
+	{ "type": "heading", "data": "continue" },
+	{
+		"type": "other",
+		"data": "`continue` functions as per C-style language rules.  Currently only supported in `loop` and `for_each`, this will skip to the next iteration of the current loop.  See `break` above for more details on inner/outer loops."
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "other",
+		"data": "The following example will result in v.x becoming 6.0, as the increment will be skipped once it reaches that value.  Note that it is better to break out of the loop in this contrived example, as it would be more performant than continuing to perform all 10 iterations."
+	},
+	{
+		"type": "code",
+		"data": "v.x = 0;\nloop(10, {\n (v.x > 5) ? continue;\n v.x = v.x + 1;\n});",
+		"language": ""
+	},
+	{ "type": "heading", "data": "Null Coalescing Operator `??`" },
+	{
+		"type": "other",
+		"data": "Similar to how the null-coalescing operator works in C, you can now reference a variable that may or may not exist without seeing a content error.  If it doesn't, you can now provide a default value to use.  Previously, if a variable didn't exist you would get a content error.  This was to make sure variables were always initialized correctly to avoid uninitialized variable bugs."
+	},
+	{
+		"type": "other",
+		"data": "Unfortunately this then required initialized scripts, or in some cases some complex work-arounds to make sure variables were initialized.  Now, if you know a variable won't be initialized in the first run of a script, you can use the following:"
+	},
+	{
+		"type": "code",
+		"data": "variable.x = (variable.x ?? 1.2) + 0.3;",
+		"language": ""
+	},
+	{
+		"type": "other",
+		"data": "This will use the value of `variable.x` if it is valid, or else 1.2 if `variable.x`:"
+	},
+	{
+		"type": "list",
+		"data": [
+			"has not yet been initialized",
+			"is a reference to a deleted entity",
+			"is an invalid reference",
+			"holds an error"
+		]
+	},
+	{
+		"type": "other",
+		"data": "Note that the `??` operator will work with `variable.`s, `temp.`s, and `context.`s that hold numbers or entity references, but not resources such as materials, textures, or geometries (as those must exist and be valid else it's a content error).  If the first argument would result in something that can't be resolved, it will return the second argument."
+	},
+	{ "type": "alert", "data": "IMPORTANT" },
+	{
+		"type": "quote",
+		"data": "Reminder: the standing rule of thumb in Molang is that if something would error or be a bad value, it is converted to 0.0 (and generally throw a content error on screen in non-publish builds.  Note that content errors may prevent uploading content to the marketplace, so please ensure expressions aren't going to do bad things such as dividing by zero)."
+	},
+	{ "type": "heading", "data": "Simple vs Complex Expressions" },
+	{
+		"type": "other",
+		"data": "A simple expression is a single statement, the value of which is returned to the system that evaluated the expression. This is showcased in the example below."
+	},
+	{
+		"type": "code",
+		"data": "math.sin(query.anim_time * 1.23)",
+		"language": ""
+	},
+	{
+		"type": "other",
+		"data": "A complex expression is one with multiple statements, each ending in a ';'.  Each statement is evaluated in order.  In the current implementation, the last statement requires the use of the return keyword and defines the resulting value of the expression as shown here:"
+	},
+	{
+		"type": "code",
+		"data": "temp.moo = math.sin(query.anim_time * 1.23);\ntemp.baa = math.cos(query.life_time + 2.0);\nreturn temp.moo * temp.moo + temp.baa;",
+		"language": ""
+	},
+	{
+		"type": "other",
+		"data": "Note that in a simple expression, `;` is not allowed, whereas in a complex expression, each statement requires a `;` including the last.  Also, note that if you don't `return` a value from a complex expression, the expression will evaluate to 0.0."
+	}
+]

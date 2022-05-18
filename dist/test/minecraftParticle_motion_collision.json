@@ -1,0 +1,32 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-jeffreykim",
+			"ms.author": "v-jeffreykim",
+			"title": "Particle Documentation - Particle Motion Collision component",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Particle Documentation - Particle Motion Collision component"
+	},
+	{
+		"type": "other",
+		"data": "This component enables collisions between the terrain and the particle. Collision detection in Minecraft consists of detecting an intersection, moving to a nearby non-intersecting point for the particle (if possible), and setting its direction to not be aimed towards the collision (usually perpendicular to the collision surface)."
+	},
+	{ "type": "alert", "data": "IMPORTANT" },
+	{
+		"type": "quote",
+		"data": "If this component doesn't exist, there will be no collision."
+	},
+	{
+		"type": "code",
+		"data": {
+			"minecraft:particle_motion_collision": {},
+			"events": { "event": "min_speed" }
+		},
+		"language": "json"
+	}
+]

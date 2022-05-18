@@ -1,0 +1,120 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Entity Documentation - minecraft:behavior.defend_trusted_target",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Entity Documentation - minecraft:behavior.defend_trusted_target"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:behavior.defend_trusted_target` allows an entity to react with an event when a trusted target is attacked."
+	},
+	{ "type": "other", "data": ">[!IMPORTANT]" },
+	{
+		"type": "quote",
+		"data": "`minecraft:behavior.defend_trusted_target` requires a mob to be set to a trusted relationship in order for the behavior to work properly."
+	},
+	{ "type": "other", "data": ">" },
+	{
+		"type": "other",
+		"data": ">The `\"minecraft:trust\"` component will set the entity state to trusted."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "aggro_sound",
+				"Default Value": "*not set*",
+				"Type": "String",
+				"Description": "Sound to occasionally play while defending."
+			},
+			{
+				"Name": "attack_interval",
+				"Default Value": "0",
+				"Type": "Integer",
+				"Description": "Time in seconds between attacks"
+			},
+			{
+				"Name": "[entity_types](../Definitions/NestedTables/entity_types.md)",
+				"Default Value": "*not set*",
+				"Type": "JSON Object",
+				"Description": "List of entity types that this mob considers valid targets"
+			},
+			{
+				"Name": "must_see",
+				"Default Value": "false",
+				"Type": "Boolean",
+				"Description": "If true, only entities in this mob's viewing range can be selected as targets"
+			},
+			{
+				"Name": "must_see_forget_duration",
+				"Default Value": "3.0",
+				"Type": "Decimal",
+				"Description": "Determines the amount of time in seconds that this mob will look for a target before forgetting about it and looking for a new one when the target isn't visible any more"
+			},
+			{
+				"Name": "within_radius",
+				"Default Value": "0.0",
+				"Type": "Decimal",
+				"Description": "Distance in blocks that the target can be within to launch an attack"
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:behavior.defend_trusted_target": {
+				"priority": 0,
+				"within_radius": 25,
+				"must_see": false,
+				"aggro_sound": "mad",
+				"sound_chance": 0.05,
+				"on_defend_start": {
+					"event": "minecraft:attack",
+					"target": "self"
+				}
+			}
+		},
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "fox" },
+	{
+		"type": "code",
+		"data": {
+			"minecraft:behavior.defend_trusted_target": {
+				"priority": 0,
+				"within_radius": 25,
+				"must_see": false,
+				"aggro_sound": "mad",
+				"sound_chance": 0.05,
+				"on_defend_start": {
+					"event": "minecraft:fox_configure_defending",
+					"target": "self"
+				}
+			}
+		},
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/entities/fox.json",
+		"range": [79, 89]
+	},
+	{
+		"type": "heading",
+		"data": "Vanilla entities using `minecraft:behavior.defend_trusted_target`"
+	},
+	{
+		"type": "list",
+		"data": [
+			"[fox](../../../../Source/VanillaBehaviorPack_Snippets/entities/fox.md)"
+		]
+	}
+]

@@ -1,0 +1,17 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-jeffreykim",
+			"ms.author": "v-jeffreykim",
+			"title": "Schema Documentation - geometry:1.16.0",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Schema Documentation - geometry:1.16.0" },
+	{
+		"type": "other",
+		"data": "This schema corresponds to the *.geo.json files in the \"models/entity\" folder of the resource pack."
+	},
+	{ "type": "code", "language": "json" }
+]

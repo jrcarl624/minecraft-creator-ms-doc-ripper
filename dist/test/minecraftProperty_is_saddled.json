@@ -1,0 +1,66 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Entity Documentation - minecraft:is_saddled",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Entity Documentation -  minecraft:is_saddled"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:is_saddled` sets that the entity is currently saddled."
+	},
+	{ "type": "alert", "data": "IMPORTANT" },
+	{
+		"type": "quote",
+		"data": "`minecraft:is_saddled` is a Boolean that is used to set the value for use in query functions like Molang and Filters. In order for the entity to have the desired affect, it will need to be paired with extra functionality."
+	},
+	{ "type": "other", "data": ">" },
+	{
+		"type": "quote",
+		"data": "The examples below will showcase both the property and how it works to create the desired effect on the entity."
+	},
+	{ "type": "heading", "data": "Example" },
+	{ "type": "heading", "data": "Plain" },
+	{
+		"type": "code",
+		"data": { "minecraft:is_saddled": {} },
+		"language": "json"
+	},
+	{ "type": "heading", "data": "With Functionality" },
+	{ "type": "code", "data": "minecraft:equippable", "language": "json" },
+	{ "type": "alert", "data": "NOTE" },
+	{
+		"type": "quote",
+		"data": "If the Entity will have the ability to toggle between the two states, you can define the property in a Component Group and use the `add` and `remove` capabilities to act as a toggle based on Events."
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{ "type": "heading", "data": "donkey" },
+	{
+		"type": "code",
+		"data": { "minecraft:is_saddled": {} },
+		"language": "json",
+		"source": "../../../../Source/VanillaBehaviorPack/entities/donkey.json",
+		"range": [262, 263]
+	},
+	{
+		"type": "heading",
+		"data": "Vanilla entities using `minecraft:is_saddled`"
+	},
+	{
+		"type": "list",
+		"data": [
+			"[donkey](../../../../Source/VanillaBehaviorPack_Snippets/entities/donkey.md)",
+			"[horse](../../../../Source/VanillaBehaviorPack_Snippets/entities/horse.md)",
+			"[mule](../../../../Source/VanillaBehaviorPack_Snippets/entities/mule.md)",
+			"[pig](../../../../Source/VanillaBehaviorPack_Snippets/entities/pig.md)",
+			"[strider](../../../../Source/VanillaBehaviorPack_Snippets/entities/strider.md)"
+		]
+	}
+]

@@ -1,0 +1,50 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "v-josjones",
+			"ms.author": "v-josjones",
+			"title": "Entity Documentation - minecraft:friction_modifier",
+			"ms.prod": "gaming"
+		}
+	},
+	{
+		"type": "heading",
+		"data": "Entity Documentation -  minecraft:friction_modifier"
+	},
+	{
+		"type": "other",
+		"data": "`minecraft:friction_modifier` defines how much friction affects this entity."
+	},
+	{ "type": "heading", "data": "Parameters" },
+	{
+		"type": "table",
+		"data": [
+			{
+				"Name": "value",
+				"Default Value": "1.0",
+				"Type": "Decimal",
+				"Description": "The higher the number, the more the friction affects this entity. A value of 1.0 means regular friction, while 2.0 means twice as much."
+			}
+		]
+	},
+	{ "type": "heading", "data": "Example" },
+	{
+		"type": "code",
+		"data": { "minecraft:friction_modifier": { "value": 2 } },
+		"language": "json"
+	},
+	{ "type": "heading", "data": "Vanilla entities examples" },
+	{
+		"type": "other",
+		"data": "No entities currently use `minecraft:friction_modifier`"
+	},
+	{
+		"type": "heading",
+		"data": "Vanilla entities using `minecraft:friction_modifier`"
+	},
+	{
+		"type": "other",
+		"data": "No entities currently use `minecraft:friction_modifier`"
+	}
+]

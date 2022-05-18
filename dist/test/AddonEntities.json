@@ -1,0 +1,384 @@
+[
+	{
+		"type": "yamlHeader",
+		"data": {
+			"author": "docsbryce",
+			"ms.author": "v-bbortree",
+			"title": "Addons Documentation - Entity List",
+			"ms.prod": "gaming"
+		}
+	},
+	{ "type": "heading", "data": "Addons Documentation - Entity List" },
+	{
+		"type": "other",
+		"data": "An overview of the Entities and Damage Sources that can be used in Addons for Minecraft: Bedrock Edition."
+	},
+	{ "type": "alert", "data": "NOTE" },
+	{
+		"type": "quote",
+		"data": "To learn more about how Entities function in Minecraft: Bedrock Edition, please take a look at the [Entity JSON Documentation](../../EntityReference/index.yml)"
+	},
+	{ "type": "heading", "data": "Entities List" },
+	{
+		"type": "other",
+		"data": "Listed below are the available Entities for use in Minecraft: Bedrock Edition and their respective ID value."
+	},
+	{
+		"type": "table",
+		"data": [
+			{ "Identifier": "agent", "Full ID": "312", "Short ID": "56" },
+			{ "Identifier": "allay", "Full ID": "390", "Short ID": "134" },
+			{
+				"Identifier": "area_effect_cloud",
+				"Full ID": "95",
+				"Short ID": "95"
+			},
+			{ "Identifier": "armor_stand", "Full ID": "317", "Short ID": "61" },
+			{ "Identifier": "arrow", "Full ID": "12582992", "Short ID": "80" },
+			{ "Identifier": "axolotl", "Full ID": "4994", "Short ID": "130" },
+			{ "Identifier": "balloon", "Full ID": "107", "Short ID": "107" },
+			{ "Identifier": "bat", "Full ID": "33043", "Short ID": "19" },
+			{ "Identifier": "bee", "Full ID": "378", "Short ID": "122" },
+			{ "Identifier": "blaze", "Full ID": "2859", "Short ID": "43" },
+			{ "Identifier": "boat", "Full ID": "90", "Short ID": "90" },
+			{ "Identifier": "cat", "Full ID": "21323", "Short ID": "75" },
+			{
+				"Identifier": "cave_spider",
+				"Full ID": "265000",
+				"Short ID": "40"
+			},
+			{ "Identifier": "chalkboard", "Full ID": "78", "Short ID": "78" },
+			{ "Identifier": "chest_boat", "Full ID": "218", "Short ID": "218" },
+			{
+				"Identifier": "chest_minecart",
+				"Full ID": "524386",
+				"Short ID": "98"
+			},
+			{ "Identifier": "chicken", "Full ID": "4874", "Short ID": "10" },
+			{ "Identifier": "cod", "Full ID": "9072", "Short ID": "112" },
+			{
+				"Identifier": "command_block_minecart",
+				"Full ID": "524388",
+				"Short ID": "100"
+			},
+			{ "Identifier": "cow", "Full ID": "4875", "Short ID": "11" },
+			{ "Identifier": "creeper", "Full ID": "2849", "Short ID": "33" },
+			{ "Identifier": "dolphin", "Full ID": "8991", "Short ID": "31" },
+			{ "Identifier": "donkey", "Full ID": "2118424", "Short ID": "24" },
+			{
+				"Identifier": "dragon_fireball",
+				"Full ID": "4194383",
+				"Short ID": "79"
+			},
+			{ "Identifier": "drowned", "Full ID": "199534", "Short ID": "110" },
+			{ "Identifier": "egg", "Full ID": "4194386", "Short ID": "82" },
+			{
+				"Identifier": "elder_guardian",
+				"Full ID": "2866",
+				"Short ID": "50"
+			},
+			{
+				"Identifier": "elder_guardian_ghost",
+				"Full ID": "2936",
+				"Short ID": "120"
+			},
+			{
+				"Identifier": "ender_crystal",
+				"Full ID": "71",
+				"Short ID": "71"
+			},
+			{
+				"Identifier": "ender_dragon",
+				"Full ID": "2869",
+				"Short ID": "53"
+			},
+			{
+				"Identifier": "ender_pearl",
+				"Full ID": "4194391",
+				"Short ID": "87"
+			},
+			{ "Identifier": "enderman", "Full ID": "2854", "Short ID": "38" },
+			{
+				"Identifier": "endermite",
+				"Full ID": "265015",
+				"Short ID": "55"
+			},
+			{
+				"Identifier": "evocation_fang",
+				"Full ID": "4194407",
+				"Short ID": "103"
+			},
+			{
+				"Identifier": "evocation_illager",
+				"Full ID": "2920",
+				"Short ID": "104"
+			},
+			{
+				"Identifier": "eye_of_ender_signal",
+				"Full ID": "70",
+				"Short ID": "70"
+			},
+			{
+				"Identifier": "falling_block",
+				"Full ID": "66",
+				"Short ID": "66"
+			},
+			{
+				"Identifier": "fireball",
+				"Full ID": "4194389",
+				"Short ID": "85"
+			},
+			{ "Identifier": "firefly", "Full ID": "4999", "Short ID": "135" },
+			{
+				"Identifier": "fireworks_rocket",
+				"Full ID": "72",
+				"Short ID": "72"
+			},
+			{ "Identifier": "fishing_hook", "Full ID": "77", "Short ID": "77" },
+			{ "Identifier": "fox", "Full ID": "4985", "Short ID": "121" },
+			{ "Identifier": "frog", "Full ID": "4996", "Short ID": "132" },
+			{ "Identifier": "ghast", "Full ID": "2857", "Short ID": "41" },
+			{
+				"Identifier": "glow_squid",
+				"Full ID": "9089",
+				"Short ID": "129"
+			},
+			{ "Identifier": "goat", "Full ID": "4992", "Short ID": "128" },
+			{ "Identifier": "guardian", "Full ID": "2865", "Short ID": "49" },
+			{ "Identifier": "hoglin", "Full ID": "4988", "Short ID": "124" },
+			{
+				"Identifier": "hopper_minecart",
+				"Full ID": "524384",
+				"Short ID": "96"
+			},
+			{ "Identifier": "horse", "Full ID": "2118423", "Short ID": "23" },
+			{ "Identifier": "husk", "Full ID": "199471", "Short ID": "47" },
+			{
+				"Identifier": "ice_bomb",
+				"Full ID": "4194410",
+				"Short ID": "106"
+			},
+			{ "Identifier": "iron_golem", "Full ID": "788", "Short ID": "20" },
+			{ "Identifier": "item", "Full ID": "64", "Short ID": "64" },
+			{ "Identifier": "leash_knot", "Full ID": "88", "Short ID": "88" },
+			{
+				"Identifier": "lightning_bolt",
+				"Full ID": "93",
+				"Short ID": "93"
+			},
+			{
+				"Identifier": "lingering_potion",
+				"Full ID": "4194405",
+				"Short ID": "101"
+			},
+			{ "Identifier": "llama", "Full ID": "4893", "Short ID": "29" },
+			{
+				"Identifier": "llama_spit",
+				"Full ID": "4194406",
+				"Short ID": "102"
+			},
+			{ "Identifier": "magma_cube", "Full ID": "2858", "Short ID": "42" },
+			{ "Identifier": "minecart", "Full ID": "524372", "Short ID": "84" },
+			{ "Identifier": "mooshroom", "Full ID": "4880", "Short ID": "16" },
+			{ "Identifier": "moving_block", "Full ID": "67", "Short ID": "67" },
+			{ "Identifier": "mule", "Full ID": "2118425", "Short ID": "25" },
+			{ "Identifier": "npc", "Full ID": "307", "Short ID": "51" },
+			{ "Identifier": "ocelot", "Full ID": "21270", "Short ID": "22" },
+			{ "Identifier": "painting", "Full ID": "83", "Short ID": "83" },
+			{ "Identifier": "panda", "Full ID": "4977", "Short ID": "113" },
+			{ "Identifier": "parrot", "Full ID": "21278", "Short ID": "30" },
+			{ "Identifier": "phantom", "Full ID": "68410", "Short ID": "58" },
+			{ "Identifier": "pig", "Full ID": "4876", "Short ID": "12" },
+			{ "Identifier": "piglin", "Full ID": "379", "Short ID": "123" },
+			{
+				"Identifier": "piglin_brute",
+				"Full ID": "383",
+				"Short ID": "127"
+			},
+			{ "Identifier": "pillager", "Full ID": "2930", "Short ID": "114" },
+			{ "Identifier": "player", "Full ID": "319", "Short ID": "63" },
+			{ "Identifier": "polar_bear", "Full ID": "4892", "Short ID": "28" },
+			{
+				"Identifier": "pufferfish",
+				"Full ID": "9068",
+				"Short ID": "108"
+			},
+			{ "Identifier": "rabbit", "Full ID": "4882", "Short ID": "18" },
+			{ "Identifier": "ravager", "Full ID": "2875", "Short ID": "59" },
+			{ "Identifier": "salmon", "Full ID": "9069", "Short ID": "109" },
+			{ "Identifier": "sheep", "Full ID": "4877", "Short ID": "13" },
+			{ "Identifier": "shield", "Full ID": "117", "Short ID": "117" },
+			{ "Identifier": "shulker", "Full ID": "2870", "Short ID": "54" },
+			{
+				"Identifier": "shulker_bullet",
+				"Full ID": "4194380",
+				"Short ID": "76"
+			},
+			{
+				"Identifier": "silverfish",
+				"Full ID": "264999",
+				"Short ID": "39"
+			},
+			{
+				"Identifier": "skeleton",
+				"Full ID": "1116962",
+				"Short ID": "34"
+			},
+			{
+				"Identifier": "skeleton_horse",
+				"Full ID": "2186010",
+				"Short ID": "26"
+			},
+			{ "Identifier": "slime", "Full ID": "2853", "Short ID": "37" },
+			{
+				"Identifier": "small_fireball",
+				"Full ID": "4194398",
+				"Short ID": "94"
+			},
+			{ "Identifier": "snow_golem", "Full ID": "789", "Short ID": "21" },
+			{
+				"Identifier": "snowball",
+				"Full ID": "4194385",
+				"Short ID": "81"
+			},
+			{ "Identifier": "spider", "Full ID": "264995", "Short ID": "35" },
+			{
+				"Identifier": "splash_potion",
+				"Full ID": "4194390",
+				"Short ID": "86"
+			},
+			{ "Identifier": "squid", "Full ID": "8977", "Short ID": "17" },
+			{ "Identifier": "stray", "Full ID": "1116974", "Short ID": "46" },
+			{ "Identifier": "strider", "Full ID": "4989", "Short ID": "125" },
+			{ "Identifier": "tadpole", "Full ID": "9093", "Short ID": "133" },
+			{
+				"Identifier": "thrown_trident",
+				"Full ID": "12582985",
+				"Short ID": "73"
+			},
+			{ "Identifier": "tnt", "Full ID": "65", "Short ID": "65" },
+			{
+				"Identifier": "tnt_minecart",
+				"Full ID": "524385",
+				"Short ID": "97"
+			},
+			{
+				"Identifier": "tripod_camera",
+				"Full ID": "318",
+				"Short ID": "62"
+			},
+			{
+				"Identifier": "tropicalfish",
+				"Full ID": "9071",
+				"Short ID": "111"
+			},
+			{ "Identifier": "turtle", "Full ID": "4938", "Short ID": "74" },
+			{ "Identifier": "vex", "Full ID": "2921", "Short ID": "105" },
+			{
+				"Identifier": "villager",
+				"Full ID": "16777999",
+				"Short ID": "15"
+			},
+			{
+				"Identifier": "villager_v2",
+				"Full ID": "16778099",
+				"Short ID": "115"
+			},
+			{ "Identifier": "vindicator", "Full ID": "2873", "Short ID": "57" },
+			{
+				"Identifier": "wandering_trader",
+				"Full ID": "886",
+				"Short ID": "118"
+			},
+			{ "Identifier": "warden", "Full ID": "387", "Short ID": "131" },
+			{ "Identifier": "witch", "Full ID": "2861", "Short ID": "45" },
+			{ "Identifier": "wither", "Full ID": "68404", "Short ID": "52" },
+			{
+				"Identifier": "wither_skeleton",
+				"Full ID": "1116976",
+				"Short ID": "48"
+			},
+			{
+				"Identifier": "wither_skull",
+				"Full ID": "4194393",
+				"Short ID": "89"
+			},
+			{
+				"Identifier": "wither_skull_dangerous",
+				"Full ID": "4194395",
+				"Short ID": "91"
+			},
+			{ "Identifier": "wolf", "Full ID": "21262", "Short ID": "14" },
+			{
+				"Identifier": "xp_bottle",
+				"Full ID": "4194372",
+				"Short ID": "68"
+			},
+			{ "Identifier": "xp_orb", "Full ID": "69", "Short ID": "69" },
+			{ "Identifier": "zoglin", "Full ID": "68478", "Short ID": "126" },
+			{ "Identifier": "zombie", "Full ID": "199456", "Short ID": "32" },
+			{
+				"Identifier": "zombie_horse",
+				"Full ID": "2186011",
+				"Short ID": "27"
+			},
+			{
+				"Identifier": "zombie_pigman",
+				"Full ID": "68388",
+				"Short ID": "36"
+			},
+			{
+				"Identifier": "zombie_villager",
+				"Full ID": "199468",
+				"Short ID": "44"
+			},
+			{
+				"Identifier": "zombie_villager_v2",
+				"Full ID": "199540",
+				"Short ID": "116"
+			}
+		]
+	},
+	{ "type": "heading", "data": "Entity Damage Source" },
+	{
+		"type": "other",
+		"data": "Listed below are the available Damage Sources that can be used when working with Entity components and filters."
+	},
+	{
+		"type": "table",
+		"data": [
+			{ "Damage Source": "all", "ID": "" },
+			{ "Damage Source": "anvil", "ID": "" },
+			{ "Damage Source": "block_explosion", "ID": "" },
+			{ "Damage Source": "charging", "ID": "" },
+			{ "Damage Source": "contact", "ID": "" },
+			{ "Damage Source": "drowning", "ID": "" },
+			{ "Damage Source": "entity_attack", "ID": "" },
+			{ "Damage Source": "entity_explosion", "ID": "" },
+			{ "Damage Source": "fall", "ID": "" },
+			{ "Damage Source": "falling_block", "ID": "" },
+			{ "Damage Source": "fire", "ID": "" },
+			{ "Damage Source": "fire_tick", "ID": "" },
+			{ "Damage Source": "fireworks", "ID": "" },
+			{ "Damage Source": "fly_into_wall", "ID": "" },
+			{ "Damage Source": "freezing", "ID": "" },
+			{ "Damage Source": "lava", "ID": "" },
+			{ "Damage Source": "lightning", "ID": "" },
+			{ "Damage Source": "magic", "ID": "" },
+			{ "Damage Source": "magma", "ID": "" },
+			{ "Damage Source": "none", "ID": "" },
+			{ "Damage Source": "override", "ID": "" },
+			{ "Damage Source": "piston", "ID": "" },
+			{ "Damage Source": "projectile", "ID": "" },
+			{ "Damage Source": "stalactite", "ID": "" },
+			{ "Damage Source": "stalagmite", "ID": "" },
+			{ "Damage Source": "starve", "ID": "" },
+			{ "Damage Source": "suffocation", "ID": "" },
+			{ "Damage Source": "suicide", "ID": "" },
+			{ "Damage Source": "temperature", "ID": "" },
+			{ "Damage Source": "thorns", "ID": "" },
+			{ "Damage Source": "void", "ID": "" },
+			{ "Damage Source": "wither", "ID": "" }
+		]
+	}
+]
